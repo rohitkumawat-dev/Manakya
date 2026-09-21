@@ -124,6 +124,9 @@ def infer_role(title):
     ):
         return "test_or_reference"
 
+    if re.search(r"\bcurrent ratings?\b|\btest and measuring methods\b", text):
+        return "test_or_reference"
+
     return "unclassified"
 
 
@@ -140,6 +143,11 @@ def product_intent(query):
 
     if re.search(r"\binsulation\b|\bsheath\b|\bconductors?\b", text):
         return "supporting"
+
+    if re.search(r"\bcement\b", text) and not re.search(
+        r"\bconcrete\b|\bmortar\b|\bgrout\b|\bbricks?\b|\bboards?\b|\bpipes?\b", text
+    ):
+        return "cement"
 
     if re.search(r"\bfittings?\b|\belbows?\b|\btees?\b", text):
         return "fitting"
@@ -181,7 +189,40 @@ def title_fits(query, title, intent, role, category):
         ):
             return False
 
+    # Title evidence can reject a mismatch, but cannot verify applicability.
+    # These gates never override an exact-identifier lookup.
+    if intent == "cement":
+        if not re.search(r"\bcement\b", t):
+            return False
+        if re.search(
+            r"\bbricks?\b|\baggregates?\b|\bboards?\b|\bpipes?\b|"
+            r"\bapparatus\b|\btesting\b|\bmethods?\b|\bmachines?\b|\bmoulds?\b", t
+        ):
+            return False
+
+    if intent == "cable":
+        if re.search(r"\bcurrent ratings?\b|\btest and measuring methods\b", t):
+            return False
+        if re.search(r"\bbuilding\b|\bhousehold\b|\bdomestic\b", q):
+            if re.search(
+                r"\blow[ -]frequency\b|\bcommunication\b|\bsignall?ing\b|\btelephone\b", t
+            ):
+                return False
+        if re.search(r"\bpvc[ -]+insulated\b", q) and re.search(
+            r"\bxlpe\b|\bcross[ -]?linked polyethylene\b", t
+        ):
+            return False
+
+    if intent in ("pipe", "fitting") and re.search(
+        r"\bpotable\b|\bdrinking\b", q
+    ):
+        if re.search(
+            r"\bsoil\b|\bwaste\b|\bdrainage\b|\brain[ -]?water\b|\bsewer", t
+        ):
+            return False
+
     patterns = {
+        "cement": r"\bcement\b",
         "pipe": r"\bpipes?\b|\btubes?\b",
         "fitting": r"\bfittings?\b|\belbows?\b|\btees?\b",
         "cable": r"\bcables?\b|\bcords?\b|\bwires?\b",
@@ -612,3 +653,4 @@ class CatalogueSearch:
             })
             output.append(record)
         return output
+
