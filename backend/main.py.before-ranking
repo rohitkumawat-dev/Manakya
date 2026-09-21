@@ -1,0 +1,158 @@
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel, Field
+
+from semantic_search import StandardsSearch
+from typo_correction import correct_query
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    app.state.search_engine = StandardsSearch()
+    yield
+
+
+app = FastAPI(
+    title="Velocia API",
+    version="0.3.1",
+    lifespan=lifespan,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://localhost:5174",
+        
+        "http://127.0.0.1:5173",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+class AnalyzeRequest(BaseModel):
+    requirement: str = Field(min_length=2, max_length=5000)
+
+@app.get("/")
+def home():
+    return {"message": "Velocia backend is running"}
+
+
+@app.get("/api/health")
+def health_check():
+    return {
+        "status": "ok",
+        "project": "Velocia",
+        "search": "semantic_with_exact_identifier_filter",
+    }
+
+
+@app.post("/api/analyze")
+def analyze_requirement(request: AnalyzeRequest):
+    requirement = request.requirement.strip()
+
+    if len(requirement) < 2:
+        raise HTTPException(
+            status_code=422,
+            detail="Enter a product description or an IS number.",
+        )
+
+    # Correct spelling BEFORE using the corrected text.
+    corrected_requirement, corrections = correct_query(requirement)
+
+    candidates = app.state.search_engine.search(
+        corrected_requirement,
+        top_k=3,
+    )
+
+    # Temporary cutoff; still needs evaluation with more records.
+    matches = [
+        candidate
+        for candidate in candidates
+        if candidate["exact_match"]
+        or candidate["similarity"] >= 0.30
+    ]
+
+    for match in matches:
+        try:
+            amendment_count = int(match.get("amendment_count_raw"))
+        except (TypeError, ValueError):
+            amendment_count = None
+            
+        match["certification_check"] = {
+            "bis_metadata_label": match.get("certification_label_raw") or "Unknown",
+            "applicability_verified": False,
+            "message": (
+                "BIS metadata label only. Supporting QCO, effective dates "
+                "and exemptions have not yet been verified."
+            ),
+        }
+
+        match["revision_check"] = {
+            "edition": match["is_number"],
+            "reaffirmation_date": match.get("reaffirmation_date"),
+            "amendment_count": amendment_count,
+            "latest_version_verified": False,
+            "checked_at": match.get("amendments_checked_at") or match.get("retrieved_at"),
+            "amendment_count_matches_metadata": match.get("amendment_count_matches_metadata"),
+            "amendment_records_returned": (len(match["amendments"]) if isinstance(match.get("amendments"), list) else None),
+            "amendment_documents_reviewed": match.get("amendment_documents_reviewed", False),
+            "warnings": [
+                "Latest edition and amendment applicability "
+                "have not yet been verified."
+            ],
+        }
+
+        if match.get("amendment_count_matches_metadata") is False:
+            match["revision_check"]["warnings"].append(
+                "BIS metadata and the amendment endpoint report different counts. "
+                "This discrepancy is unresolved; an empty list does not prove no amendments exist."
+            )
+
+        if amendment_count:
+            match["revision_check"]["warnings"].append(
+                f"BIS metadata reports {amendment_count} amendment(s). "
+                "Review the amendment documents before drafting specifications."
+            )
+        references = match.get("cross_references_raw", {})
+
+        match["related_standards"] = [
+            {
+                "is_number": ref.get("standardNumber"),
+                "title": ref.get("standardName"),
+                "bis_reference_type": ref.get("typeLabel"),
+                "relationship": "Listed in BIS cross-references",
+                "applicability_verified": False,
+            }
+            for ref in (references.get("crossRefData") or [])
+        ]
+
+        match["referenced_by"] = [
+            {
+                "is_number": ref.get("standardNumber"),
+                "title": ref.get("standardName"),
+                "relationship": "References this recommended standard",
+            }
+            for ref in (references.get("crossFollowRefData") or [])
+        ]
+
+        # Keep the API response readable; raw data remains in standards.json.
+        match.pop("cross_references_raw", None)
+
+    return {
+        "requirement": requirement,
+        "searched_requirement": corrected_requirement,
+        "corrections": corrections,
+        "message": (
+            f"Found {len(matches)} potential standard candidate(s)."
+            if matches
+            else "No strong match in our current dataset. "
+                 "Try adding the product, material, and intended use."
+        ),
+        "standards": matches,
+        "search_method": "semantic_with_exact_identifier_filter",
+    }

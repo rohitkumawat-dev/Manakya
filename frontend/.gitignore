@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Generated files
+__pycache__/
+*.py[cod]
+dist/
+build/
+.vite/
+*.log
+
+# Models and search indexes
+.cache/
+models/
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.faiss
+*.pkl
+
+# Local databases and backups
+*.db
+*.sqlite*
+*.sql
+*.dump
+*.backup
+*.zip
+
+# Collected BIS files and generated reports
+bis_collected/
+bis_*_raw.json
+bis_data_audit*.json
+reports/
+uploads/

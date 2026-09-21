@@ -1,0 +1,3107 @@
+[
+  {
+    "standard_number": "IS 3466:1988",
+    "title": "Specification For Masonry Cement (Second Revision)",
+    "replacement": "IS3466:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:35.306753+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10058
+  },
+  {
+    "standard_number": "IS 3535:1986",
+    "title": "Methods of Sampling Hydraulic Cement (First revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:43.957384+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10112
+  },
+  {
+    "standard_number": "IS 3709:1966",
+    "title": "Specification for mastic cement for bedding of metal windows",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:48.295716+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10308
+  },
+  {
+    "standard_number": "IS 3873:1993",
+    "title": "Laying .cement concrete/stone slab lining on canals - Code of practice (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:01.289909+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10461
+  },
+  {
+    "standard_number": "IS 4031 (Part 1):1996",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 1 Determination of Fineness by Dry Sieving (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:05.645798+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10661
+  },
+  {
+    "standard_number": "IS 4031 (Part 11):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 11 Determination of Density (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:14.439032+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10662
+  },
+  {
+    "standard_number": "IS 4031 (Part 12):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 12 Determination of Air Content of Hydraulic Cement Mortar (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:18.899661+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10663
+  },
+  {
+    "standard_number": "IS 4031 (Part 15):1991",
+    "title": "Methods of Physical Test for Hydraulic Cement: Part 15 Determination of Fineness by Wet Sieving (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:32.201099+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10664
+  },
+  {
+    "standard_number": "IS 4031 (Part 2):1999",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 2 Determination of fineness by Blaine air permeability method (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:36.631159+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10665
+  },
+  {
+    "standard_number": "IS 4031 (Part 3):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 3 Determination of Soundness (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:41.068348+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10666
+  },
+  {
+    "standard_number": "IS 4031 (Part 4):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 4 Determination of Consistency of Standard Cement Paste (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:45.566760+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10667
+  },
+  {
+    "standard_number": "IS 4031 (Part 5):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 5 Determination of Initial and Final Setting Times (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:49.945815+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10668
+  },
+  {
+    "standard_number": "IS 4031 (Part 6):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 6 Determination of Compressive Strength of Hydraulic Cement other than Masonry Cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:54.284754+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10669
+  },
+  {
+    "standard_number": "IS 4031 (Part 9):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 9 Determination of Heat of Hydration (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:07.423573+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10670
+  },
+  {
+    "standard_number": "IS 4032:1985",
+    "title": "Method of Chemical Analysis of Hydraulic Cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:11.854152+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10671
+  },
+  {
+    "standard_number": "IS 4101 (Part 2):1967",
+    "title": "Code of practice for external facings and veneers: Part 2 cement concrete facing",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:16.273473+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10734
+  },
+  {
+    "standard_number": "IS 432 (Part 1):1982",
+    "title": "Specification for Mild Steel and Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement: Part 1 Mild Steel and Medium Tensile Steel Bars (Third revision)",
+    "replacement": "IS432(Part1):2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:20.631295+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10949
+  },
+  {
+    "standard_number": "IS 432 (Part 2):1982",
+    "title": "Specification for Mild Steel and Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement: Part 2 Hard-Drawn Steel Wire (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:29.392532+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10950
+  },
+  {
+    "standard_number": "IS 4332 (Part 4):1968",
+    "title": "Methods of test for stabilized soils: Part 4 Wetting and drying, and freezing and thawing tests for compacted soil-cement mixtures",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:33.761890+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 10963
+  },
+  {
+    "standard_number": "IS 4388:1982",
+    "title": "Specification for Cotton Fabrics for Reinforcement of Rubber Hoses (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:46.956761+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11024
+  },
+  {
+    "standard_number": "IS 269:2015",
+    "title": "Ordinary portland cement - Specification (Sixth Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:04.670608+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 111
+  },
+  {
+    "standard_number": "IS 10292:1988",
+    "title": "Specification for dimensional reooirements for rubber sealing rings for C.I.D joints in asbestos cement piping (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:05:50.585979+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1112
+  },
+  {
+    "standard_number": "IS 10299:1982",
+    "title": "Specification for cast iron saddle pieces for service connection from asbestos cement pressure pipes",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:05:55.043727+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1117
+  },
+  {
+    "standard_number": "IS 455:2015",
+    "title": "Portland slag cement - Specification (fifth revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:51.317935+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11237
+  },
+  {
+    "standard_number": "IS 458:2003",
+    "title": "Precast concrete pipes(With And Without Reinforcement) - Specification (Fourth Revision)",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:59.145124+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11294
+  },
+  {
+    "standard_number": "IS 459:1992",
+    "title": "Corrugated and semi - Corrugated asbestos cement sheets - Specification (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:00.083143+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11314
+  },
+  {
+    "standard_number": "IS 4845:1968",
+    "title": "Definitions and Terminology relating to Hydraulic Cement",
+    "replacement": "IS4845:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:04.568712+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11568
+  },
+  {
+    "standard_number": "IS 5137:1990",
+    "title": "Rubber hose for cement grouting specification (Second Revision)",
+    "replacement": "IS5137:2023",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:07.923631+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 11894
+  },
+  {
+    "standard_number": "IS 5367:1969",
+    "title": "Specification For Forceps, Eye, Strabismus, For Advancement (Prince's And Worth's Patterns)",
+    "replacement": "IS5367:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:22.673343+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12127
+  },
+  {
+    "standard_number": "IS 10388:1982",
+    "title": "Corrugated coir wood wool cement roofing sheets-Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:05:59.383291+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1217
+  },
+  {
+    "standard_number": "IS 5456:2006",
+    "title": "Testing of positive displacement type air compressors and exhausters - Code of practice (Second Revision)",
+    "replacement": "5456:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:16.783614+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12222
+  },
+  {
+    "standard_number": "IS 5512:1983",
+    "title": "Specification for Flow Table for use in Tests of Hydraulic Cements and Pozzolanic Materials (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:41.079796+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12285
+  },
+  {
+    "standard_number": "IS 5525:1969",
+    "title": "Recommendations for Detailing of Reinforcement in Reinforced Concrete works",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:45.422688+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12299
+  },
+  {
+    "standard_number": "IS 5531:2014",
+    "title": "Cast iron specials for asbestos cement pressure pipes for water and sewage - Specification (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:49.816033+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12306
+  },
+  {
+    "standard_number": "IS 5724:2018",
+    "title": "Thermal insulating cements - Methods of test (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:57.183883+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12522
+  },
+  {
+    "standard_number": "IS 5913:2003",
+    "title": "Asbestos Cement Products - Methods of Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:01.604581+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12724
+  },
+  {
+    "standard_number": "IS 6035:1986",
+    "title": "Specification for zinc phosphate dental cement (First Revision)",
+    "replacement": "DecidedbyCouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:29.815322+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12861
+  },
+  {
+    "standard_number": "IS 6039:1970",
+    "title": "Specification for zinc oxide - Eugenol dental cement",
+    "replacement": "18789:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:34.166157+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12865
+  },
+  {
+    "standard_number": "IS 6043:1970",
+    "title": "Specification for copper phosphate - Zinc phosphate dental cement",
+    "replacement": "DecidedbyCouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:38.523104+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 12869
+  },
+  {
+    "standard_number": "IS 6461 (Part 1):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 1 Concrete Aggregates",
+    "replacement": "6461(PART1):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:47.305637+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13314
+  },
+  {
+    "standard_number": "IS 6461 (Part 11):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 11 Prestressed Concrete",
+    "replacement": "6461(PART11):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:56.053753+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13315
+  },
+  {
+    "standard_number": "IS 6461 (Part 12):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 12 Miscellaneous",
+    "replacement": "6461(PART12):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:00.437239+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13316
+  },
+  {
+    "standard_number": "IS 6461 (Part 4):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 4 Types of Concrete",
+    "replacement": "6461(PART4):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:13.548556+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13317
+  },
+  {
+    "standard_number": "IS 6461 (Part 5):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 5 Formwork for Concrete",
+    "replacement": "6461(PART5):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:17.909634+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13318
+  },
+  {
+    "standard_number": "IS 6461 (Part 6):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 6 Equipment, Tools and Plant",
+    "replacement": "6461(PART6):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:22.349621+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13319
+  },
+  {
+    "standard_number": "IS 6461 (Part 8):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 8 Properties of Concrete",
+    "replacement": "6461(PART8):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:31.071978+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13320
+  },
+  {
+    "standard_number": "IS 6461 (Part 9):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 9 Structural Aspects",
+    "replacement": "6461(PART9):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:35.412141+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13321
+  },
+  {
+    "standard_number": "IS 650:1991",
+    "title": "Standard sand for testing cement - Specification (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:12.095638+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13358
+  },
+  {
+    "standard_number": "IS 6530:1972",
+    "title": "Code of practice for laying of asbestos cement pressure pipes",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:16.427924+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13390
+  },
+  {
+    "standard_number": "IS 6849 (Part 1):1999",
+    "title": "Positive displacement vacuum pumps - Measurement of performance characteristics: Part 1 measurement of volume rate of flow (Pumping Speed) (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:20.782476+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13714
+  },
+  {
+    "standard_number": "IS 6849 (Part 2):1993",
+    "title": "Positive displacement vacuum pumps - Measurement of performance characteristics: Part 2 measurement of ultimate pressure (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:25.115299+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13715
+  },
+  {
+    "standard_number": "IS 6849 (Part 3):1976",
+    "title": "Methods of measurement of performance characteristics of positive - Displacement vacuum pumps: Part 3 water vapour pumping capacity",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:29.441390+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13716
+  },
+  {
+    "standard_number": "IS 6884:1983",
+    "title": "Dental Silicate Cement",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:39.750506+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13754
+  },
+  {
+    "standard_number": "IS 6908:1991",
+    "title": "Asbestos - Cement pipes and fitkIngs for sewerage and drainage - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:33.824481+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13788
+  },
+  {
+    "standard_number": "IS 6909:1990",
+    "title": "Supersulphated Cement - Specification (First Revision)",
+    "replacement": "IS6909:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:38.199882+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 13789
+  },
+  {
+    "standard_number": "IS 10553 (Part 5):1987",
+    "title": "Requirements of chlorination equipment: Part 5 Bleaching powder solution feeder displacement type chlorinator",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:03.949581+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1394
+  },
+  {
+    "standard_number": "IS 7113:2003",
+    "title": "Soil - Cement lining for canals - Code of practice (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:46.988680+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14029
+  },
+  {
+    "standard_number": "IS 7509:1993",
+    "title": "Thermal insulating cements - - Specification (First Revision)",
+    "replacement": "IS7509:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:44.106202+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14469
+  },
+  {
+    "standard_number": "IS 10607:1983",
+    "title": "Specification for refractories for cement rotary kilns",
+    "replacement": "DECIDEDBYDIVISIONALCOUNCIL-FEB2020",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:24:59.726632+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1454
+  },
+  {
+    "standard_number": "IS 7639:1975",
+    "title": "Methods of sampling of asbestos cement products",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:55.715158+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14626
+  },
+  {
+    "standard_number": "IS 7834 (Part 1):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 1 General requirements (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:00.098378+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14864
+  },
+  {
+    "standard_number": "IS 7834 (Part 2):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 2 Specific Requirements for 45 Degrees Elbows (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:04.483414+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14865
+  },
+  {
+    "standard_number": "IS 7834 (Part 3):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 3 Specific Requirements for 90 Degree elbows  (First revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:08.803463+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14866
+  },
+  {
+    "standard_number": "IS 7834 (Part 4):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 4 Specific Requirements for 90 Degree Tees (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:13.127749+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14867
+  },
+  {
+    "standard_number": "IS 7834 (Part 5):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies : Part 5 Specific Requirements for 45 degree Tees (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:17.450166+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14868
+  },
+  {
+    "standard_number": "IS 7834 (Part 6):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 6 Specific Requirements for Sockets (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:21.781032+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14869
+  },
+  {
+    "standard_number": "IS 7834 (Part 7):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 7 Specific Requirements for Unions (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:26.207564+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14870
+  },
+  {
+    "standard_number": "IS 7834 (Part 8):1987",
+    "title": "Specification for Injection Moulded PVC Socket Fittings with Solvent Cement Joints for Water Supplies: Part 8 Specific Requirements for Caps (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:30.594967+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 14871
+  },
+  {
+    "standard_number": "IS 10646:1991",
+    "title": "Canal linings - Cementconcrete tiles - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:08.291100+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1498
+  },
+  {
+    "standard_number": "IS 8041:1990",
+    "title": "Rapid Hardening Portland Cement - Specification (Second Revision)",
+    "replacement": "IS8041:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:34.979441+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15105
+  },
+  {
+    "standard_number": "IS 8042:2015",
+    "title": "White Portland Cement - Specification (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:43.702138+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15106
+  },
+  {
+    "standard_number": "IS 8043:1991",
+    "title": "Hydrophobic Portland Cement - Specification (Second Revision)",
+    "replacement": "IS8043:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:48.265519+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15107
+  },
+  {
+    "standard_number": "IS 10660:1983",
+    "title": "Specification for rubber hydraulic hose with textile reinforcement",
+    "replacement": "10660:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:04.070477+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1513
+  },
+  {
+    "standard_number": "IS 8125:1976",
+    "title": "Dimensions and Materials of Cement Rotary Kilns, Components and Auxiliaries (Dry Process With Suspension Preheater)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:56.950095+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15194
+  },
+  {
+    "standard_number": "IS 8229:1986",
+    "title": "Specification for oil - Well cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:01.302959+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15320
+  },
+  {
+    "standard_number": "IS 8641:2015",
+    "title": "Implants for surgery - Acrylic resin cements (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:05.661738+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15816
+  },
+  {
+    "standard_number": "IS 8794:1988",
+    "title": "Specification for cast iron detachable joints for use with asbestos cement pressure pipes (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:10.028119+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 15983
+  },
+  {
+    "standard_number": "IS 8870:1978",
+    "title": "Specification for asbestos cement cable conduits and troughs",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:14.357627+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 16060
+  },
+  {
+    "standard_number": "IS 13801:2013",
+    "title": "Chequered Cement Concrete Tiles - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:50.254896+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 162
+  },
+  {
+    "standard_number": "IS 9077:1979",
+    "title": "Code of practice for corrosion protection of steel reinforcement in RB and RCC construction",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:18.737638+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 16338
+  },
+  {
+    "standard_number": "IS 3812 (Part 1)  : 2013",
+    "title": "Pulverized fuel ash - Specification: Part 1 For use as pozzolana in cement, cement mortar and concrete (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:52.625461+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 165
+  },
+  {
+    "standard_number": "IS 3812 (Part 2):2013",
+    "title": "Pulverized Fuel Ash - Specification: Part 2 For use as Admixture in Cement Mortar and Concrete (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:56.951978+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 166
+  },
+  {
+    "standard_number": "IS 9450:1980",
+    "title": "Guidelines for placement of images in roll microfilm",
+    "replacement": "9450:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:14.808733+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 16825
+  },
+  {
+    "standard_number": "IS 9459:1980",
+    "title": "Specification for apparatus for use in Measurement of Length change of hardened Cement Paste, Mortar and Concrete",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:27.438437+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 16836
+  },
+  {
+    "standard_number": "IS 9627:1980",
+    "title": "Specification for asbestos cement pressure pipes (Light Duty)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:31.849976+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17030
+  },
+  {
+    "standard_number": "IS 9633:1980",
+    "title": "Specification for Farm Drainage Asbestos Cement Pipes",
+    "replacement": "Decidedbycouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:19.218262+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17036
+  },
+  {
+    "standard_number": "IS 8112:2013",
+    "title": "Ordinary Portland Cement, 43 Grade",
+    "replacement": "IS269:2015",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:57.245864+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 175
+  },
+  {
+    "standard_number": "SP 34:1987",
+    "title": "Handbook on Concrete Reinforcement and Detailing",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:46.632826+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17714
+  },
+  {
+    "standard_number": "SP 37 (Part 3):1987",
+    "title": "Handbook for refractories: Part 3 refractories for cement kiln system",
+    "replacement": "DECIDEDBYDIVISIONALCOUNCIL-FEB2020",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:41.523928+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17717
+  },
+  {
+    "standard_number": "IS 10693 (Part 1):1983",
+    "title": "Limits for emission of particulate matter from cement plants: Part 1 Kilns",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:08.391943+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17967
+  },
+  {
+    "standard_number": "IS 10693 (Part 2):1987",
+    "title": "Limits for emission of particulate matter from cement plants: Part 2 Mills",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:12.750691+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 17968
+  },
+  {
+    "standard_number": "IS 1139:1966",
+    "title": "Specification for Hot rolled mild steel, medium tensile steel and high yield strength steel deformed bars for concrete reinforcements",
+    "replacement": "IS1786",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:21.505197+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 18052
+  },
+  {
+    "standard_number": "IS 11653:1986",
+    "title": "Polypropylene (PP) woven sacks for packing cement",
+    "replacement": "IS11652",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:34.646776+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 18072
+  },
+  {
+    "standard_number": "IS 10850:1984",
+    "title": "Specification for apparatus for Measurement of Water Retentivity of Masonry Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:17.080887+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1812
+  },
+  {
+    "standard_number": "IS 12814:1989",
+    "title": "Method of analysis of hydraulic cement by atomic absorption spectrophotometer",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:18.551164+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 18229
+  },
+  {
+    "standard_number": "IS 1298:1958",
+    "title": "Methods of test for determination of free lime in portland cement",
+    "replacement": "IS4032",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:22.904608+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 18239
+  },
+  {
+    "standard_number": "IS 14378:1996",
+    "title": "Textiles - Paper laminated high density polyethylene (HDPE)/ polypropylene (PP) bags for packing cements",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:35.978753+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 18384
+  },
+  {
+    "standard_number": "IS 10890:1984",
+    "title": "Specification for Planetary Mixer used in tests of Cement and Pozzolana",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:21.466408+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 1862
+  },
+  {
+    "standard_number": "IS 3007 (Part 2):1999",
+    "title": "Laying of Asbestos Cement Sheets Code of practice - Part II : Semi-Corrugated Sheets",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:22.084521+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19081
+  },
+  {
+    "standard_number": "IS 3418:1968",
+    "title": "Oil and solvent-resistant hose of rubber with braided textile reinforcement",
+    "replacement": "IS635",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:32.795967+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19214
+  },
+  {
+    "standard_number": "IS 3557:1965",
+    "title": "Air Hose Of Rubber, Heavy Duty, With Woven Reinforcement",
+    "replacement": "IS446",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:37.103900+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19265
+  },
+  {
+    "standard_number": "IS 3572:1968",
+    "title": "Welding Hose Of Rubber With Braided Textile Reinforcement",
+    "replacement": "IS447",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:41.435693+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19268
+  },
+  {
+    "standard_number": "IS 3860:1966",
+    "title": "Precast Cement Concreat Slabs for Cannal Lining",
+    "replacement": "IS10646",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:45.776282+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19366
+  },
+  {
+    "standard_number": "IS 4332 (Part 6):1972",
+    "title": "Methods of test for stabilized soils: Part 6 Flexural strength of soil-cement using simple beam with third-point loading",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:38.088833+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19479
+  },
+  {
+    "standard_number": "IS 4332 (Part 7):1973",
+    "title": "Methods of test for stabilized soils: Part 7 Determination of cement content of cement stabilized soils",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:42.541981+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19480
+  },
+  {
+    "standard_number": "IS 445:1964",
+    "title": "Water Hose Of Rubber, High Pressure With Woven Reinforcement",
+    "replacement": "IS444",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:50.118751+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19512
+  },
+  {
+    "standard_number": "IS 4969:1968",
+    "title": "Method of Test for Detemining Flexural Strength of Precast Cement Concrete Slabs for Canal Lining",
+    "replacement": "IS10646",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:03.494219+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19679
+  },
+  {
+    "standard_number": "IS 5166:1969",
+    "title": "Cement grouting hose of rubber with graded textile reinforcement",
+    "replacement": "IS5137",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:12.251752+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19742
+  },
+  {
+    "standard_number": "IS 5498:1969",
+    "title": "Lime-cement-cinder hollow concrete blocks",
+    "replacement": "IS3115",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:21.108349+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19830
+  },
+  {
+    "standard_number": "IS 5937:1970",
+    "title": "Hot water hose of rubber with braided textile reinforcement",
+    "replacement": "IS5821",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:25.478355+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 19944
+  },
+  {
+    "standard_number": "IS 6417:1972",
+    "title": "Rubber sand blast hose with woven textile reinforcement",
+    "replacement": "IS5894",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:42.860561+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20060
+  },
+  {
+    "standard_number": "IS 6441 (Part 4):1972",
+    "title": "Methods of test for autoclaved cellular concrete products: Part 4 corrosion protection of steel reinforcement in autoclave cellular concrete",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:06.023324+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20068
+  },
+  {
+    "standard_number": "IS 6461 (Part 10):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 10 Tests and Testing apparatus",
+    "replacement": "6461(PART10):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:28:51.710895+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20075
+  },
+  {
+    "standard_number": "IS 6461 (Part 2):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 2 Materials (other than Cement and Aggregate)",
+    "replacement": "6461(PART2):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:04.848917+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20076
+  },
+  {
+    "standard_number": "IS 6461 (Part 3):1972",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 3 Concrete Reinforcement",
+    "replacement": "6461(PART3):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:09.218692+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20077
+  },
+  {
+    "standard_number": "IS 6461 (Part 7):1973",
+    "title": "Glossary of Terms Relating to Cement Concrete: Part 7 Mixing, Laying, Compaction, Curing and other Construction Aspects",
+    "replacement": "6461(PART7):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:26.686240+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20078
+  },
+  {
+    "standard_number": "IS 7510:1974",
+    "title": "Thermal insulating cement (type 350)",
+    "replacement": "IS7509",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:48.448136+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20294
+  },
+  {
+    "standard_number": "IS 911:1968",
+    "title": "Air hose of rubber with braided textile reinforcement",
+    "replacement": "IS446",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:01.588084+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20658
+  },
+  {
+    "standard_number": "IS 913:1968",
+    "title": "Water hose of rubber with braided textile reinforcement",
+    "replacement": "IS444",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:05.913800+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20664
+  },
+  {
+    "standard_number": "IS 9350:1980",
+    "title": "Thermal Insulating Cement (type 950)",
+    "replacement": "IS7509",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:10.335246+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20711
+  },
+  {
+    "standard_number": "IS/ISO 9917 (Part 1):2007",
+    "title": "Dentistry \u2014 Water-Based Cements Part 1 Powder/Liquid Acid-Base Cements ( First Revision )",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:20.316161+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20906
+  },
+  {
+    "standard_number": "IS/ISO 9917 (Part 2):2017",
+    "title": "Dentistry - Water - Based cement: Part 2 resin - Modified cements (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:24.683655+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 20907
+  },
+  {
+    "standard_number": "IS B6452:1989",
+    "title": "High Alumina Cement For Structural Use(bi-lingual)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:44.933970+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21040
+  },
+  {
+    "standard_number": "IS/ISO 14064 (Part 2):2006",
+    "title": "Greenhouse gases: Part 2 specification with guidance at the project level for quantification, monitoring and reporting of greenhouse gas emission reductions or removal enhancements",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:23.607659+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21126
+  },
+  {
+    "standard_number": "IS 15895:2018",
+    "title": "High alumina refractory cement - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:18.021679+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21247
+  },
+  {
+    "standard_number": "IS B3466:1988",
+    "title": "Specification For Masonry Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:40.541442+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21267
+  },
+  {
+    "standard_number": "IS 12269:1987",
+    "title": "Specification for 53 grade ordinary Portland cement (BI-LINGUAL)",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:01.095650+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21319
+  },
+  {
+    "standard_number": "IS 6452:1989",
+    "title": "High Alumina Cement for Structural use - Specification (First Revision)",
+    "replacement": "IS6452:2026",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:10.383494+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21335
+  },
+  {
+    "standard_number": "IS 16172:2014",
+    "title": "Reinforcement couplers for mechanical splices of bars in concrete - Specification",
+    "replacement": "IS16172:2023",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:57.877627+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 21729
+  },
+  {
+    "standard_number": "IS 16355:2015",
+    "title": "Geosynthetics - Guidelines for installation of geogrids used as soil reinforcement in mechanically stabilised earth (MSE) retaining structures",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:01.586860+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22037
+  },
+  {
+    "standard_number": "IS 16353:2015",
+    "title": "Portland Cement Clinker - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:52.888220+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22064
+  },
+  {
+    "standard_number": "IS 16354:2015",
+    "title": "Metakaolin for Use in Cement, Cement Mortar and Concrete - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:57.246142+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22065
+  },
+  {
+    "standard_number": "IS 16415:2015",
+    "title": "Composite Cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:06.036181+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22121
+  },
+  {
+    "standard_number": "IS 16349:2015",
+    "title": "Geosynthetics \u2013 Guidelines for installation of geogrids used as reinforcement of base and sub-base layers in pavement structures",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:48.522534+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22137
+  },
+  {
+    "standard_number": "IS 16481:2016",
+    "title": "Textiles \u2013 Synthetic micro-fibres for use in cement based matrix \u2013 Specification",
+    "replacement": "IS16481:2022",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:02.244342+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22162
+  },
+  {
+    "standard_number": "IS 2063 (Part 6):2016",
+    "title": "Test code for machine tools: Part 6 determination of positioning accuracy on body and face diagonals (Diagonal Displacement Tests)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:34.203125+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22350
+  },
+  {
+    "standard_number": "IS 16525:2017",
+    "title": "Styrene butadiene styrene (SBS) modified bituminous waterproofing and damp-proofing membrane with polyester reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:15.121670+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22594
+  },
+  {
+    "standard_number": "IS 16526:2017",
+    "title": "Atactic polypropylene (APP) modified bituminous waterproofing and damp-proofing membrane with glass fibre reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:19.494918+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22595
+  },
+  {
+    "standard_number": "IS 16532:2017",
+    "title": "APP Modified Bituminous Waterproofing and Damp-Proofing Membrane with Polyester Reinforcement  - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:23.854635+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22596
+  },
+  {
+    "standard_number": "IS 16651:2017",
+    "title": "High Strength Deformed Stainless Steel Bars and Wires for Concrete Reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:36.999768+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22604
+  },
+  {
+    "standard_number": "IS 16709:2017",
+    "title": "Textiles - Polypropylene (PP) woven, laminated, block bottom valve sacks for packaging of 50 kg cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:41.617103+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22691
+  },
+  {
+    "standard_number": "IS 16564:2018",
+    "title": "Ergonomics - Accessible design - Sound pressure levels of spoken announcements for products and public address systems",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:28.264951+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22781
+  },
+  {
+    "standard_number": "IS 16720:2018",
+    "title": "Pulverized Fuel Ash-Cement Bricks- Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:50.576123+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22925
+  },
+  {
+    "standard_number": "IS 16714:2018",
+    "title": "Ground Granulated Blast Furnace Slag for Use in Cement, Mortar and Concrete - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:45.962886+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 22926
+  },
+  {
+    "standard_number": "IS/ISO 6474 (Part 2):2012",
+    "title": "Implants for surgery \u2013 Ceramic materials Part 2 Composite Materials based on a High-Purity Alumina Matrix with Zirconia Reinforcement",
+    "replacement": "IS18530(Part2):2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:37.073704+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23222
+  },
+  {
+    "standard_number": "IS 11262:1985",
+    "title": "Specification for Calorimeter for Determination of Heat of Hydration of Hydraulic Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:25.792747+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2324
+  },
+  {
+    "standard_number": "IS/ISO 21534:2007",
+    "title": "Non - Active surgical implants - Joint replacement implants - Particular requirements",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:15.819590+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23240
+  },
+  {
+    "standard_number": "IS/ISO 21535:2007",
+    "title": "Non - Active surgical implants - Joint replacement implants - Specific requirements for hip - Joint replacement implants",
+    "replacement": "IS19180:2025",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:28.003254+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23242
+  },
+  {
+    "standard_number": "IS/ISO 21536:2007",
+    "title": "Non - Active surgical implants - Joint replacement implants - Specific requirements for knee - Joint replacement implants",
+    "replacement": "19193:2025",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:30:32.520355+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23243
+  },
+  {
+    "standard_number": "IS 11263:1985",
+    "title": "Specification for Cylinder Measures for Determination of Air Content of Hydraulic Cement Mortar",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:30.126514+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2325
+  },
+  {
+    "standard_number": "IS 16993:2018",
+    "title": "Microfine Ordinary Portland Cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:59.268217+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23531
+  },
+  {
+    "standard_number": "IS 14458 (Part 5):2018",
+    "title": "Retaining wall for hill areas - Guidelines: Part 5 construction of cement stone masonry walls",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:12.057546+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23649
+  },
+  {
+    "standard_number": "IS/ISO 16402:2008",
+    "title": "Implants for surgery - Acrylic resin cement - Flexural fatigue testing of acrylic resin cements used in orthopaedics",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:58.021263+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 23985
+  },
+  {
+    "standard_number": "IS 11320:1997",
+    "title": "Glass fibre rovings for the reinforcement of polyester and of epoxide resin systems - Specification (First Revision)",
+    "replacement": "IS11320:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:17.151048+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2406
+  },
+  {
+    "standard_number": "IS 17132:2019",
+    "title": "Guideline Specifications for Replacement Brake Lining Assemblies and Drum Brake Linings for Power-Driven Vehicles and Their Trailers",
+    "replacement": "17132:2025",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:06.612713+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24063
+  },
+  {
+    "standard_number": "IS 17171:2019",
+    "title": "Construction drawings -- Simplified representation of concrete reinforcement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:07.978745+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24232
+  },
+  {
+    "standard_number": "IS/ISO/IEC 9579:2000",
+    "title": "Information Technology  Remote Database Access for SQL with Security Enhancement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:33.408472+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24285
+  },
+  {
+    "standard_number": "IS/ISO/IEC 13863:1998",
+    "title": "Information Technology - Telecommunications and Information Exchange Between Systems - Private Integrated Services Network - Specification, Functional Model and Information Flows - Path Replacement Additional Network Feature",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:29.047612+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24357
+  },
+  {
+    "standard_number": "IS/ISO 1217:2009",
+    "title": "Displacement Compressors - Acceptance Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:49.303402+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24522
+  },
+  {
+    "standard_number": "IS 17299:2019",
+    "title": "Reinforcement yarns \u2013 Determination of twist",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:16.755448+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24534
+  },
+  {
+    "standard_number": "IS 17303:2019",
+    "title": "Reinforcement yarns \u2013 Determination of twist balance index",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:21.096473+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24538
+  },
+  {
+    "standard_number": "IS 17309:2019",
+    "title": "Reinforcement products \u2013 Mats and fabrics \u2013 Determination of mass per unit area",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:29.820498+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24541
+  },
+  {
+    "standard_number": "IS 17313:2019",
+    "title": "Reinforcement products \u2013 Determination of moisture content",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:34.124453+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24543
+  },
+  {
+    "standard_number": "IS 17305:2019",
+    "title": "Reinforcements \u2013 Woven fabrics \u2013 Determination of number of yarns per unit length of warp and weft",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:25.496067+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24552
+  },
+  {
+    "standard_number": "IS 17298:2019",
+    "title": "Reinforcement yarns \u2013 Determination of linear density",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:12.350659+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24597
+  },
+  {
+    "standard_number": "IS 17372:2020",
+    "title": "Geosynthetics \u2013 Polymeric strip/geostrip used as soil reinforcement in retaining structures \u2013 Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:42.869224+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24677
+  },
+  {
+    "standard_number": "IS 17365:2020",
+    "title": "Guidelines for the determination of the long-term strength of geosynthetics for soil reinforcement",
+    "replacement": "17365:2025",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:10.928590+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24742
+  },
+  {
+    "standard_number": "IS 516 (Part 11):2020",
+    "title": "Hardened Concrete - Methods of Test: Part 11 Determination of Portland Cement Content of Hardened Hydraulic Cement Concrete ( First Revision )",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:18.126380+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 24800
+  },
+  {
+    "standard_number": "IS 17386:2020",
+    "title": "Electric Traction Lifts - Replacement of Existing Passenger and Goods Passenger Lifts in Existing Buildings",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:15.244643+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25155
+  },
+  {
+    "standard_number": "IS 269:2013",
+    "title": "Ordinary Portland Cement, 33 Grade",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:24.083071+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25187
+  },
+  {
+    "standard_number": "IS 455:1989",
+    "title": "Portland Slag Cement - Specification",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:54.476550+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25188
+  },
+  {
+    "standard_number": "IS 14276:1995",
+    "title": "Cement bonded particle boards -Specification",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:31.621143+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25202
+  },
+  {
+    "standard_number": "IS 1489 (Part 1):1991",
+    "title": "Specification for Portland pozzolana cement Part 1 Flyash based",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:40.351705+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25238
+  },
+  {
+    "standard_number": "IS 1489 (Part 2):1991",
+    "title": "Specification for Portland-pozzolana cement Part 2 calcined clay based",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:44.741650+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25245
+  },
+  {
+    "standard_number": "IS 8042:1989",
+    "title": "White Portland Cement -",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:29:52.858185+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25246
+  },
+  {
+    "standard_number": "IS 11652:2000",
+    "title": "Textiles - Woven Sacks for Packing Cement - High Density Polyethylene (HDPE)/Polypropylene (PP)",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:30.228535+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25284
+  },
+  {
+    "standard_number": "IS 15895:2011",
+    "title": "High Alumina Refractory Cement",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:53.536738+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25456
+  },
+  {
+    "standard_number": "IS 4031 (Part 7):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 7 Determination of Compressive Strength of Masonry Cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:58.717591+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 256
+  },
+  {
+    "standard_number": "IS/ISO 14064 (Part 2):2019",
+    "title": "IS/ISO 14064-2 : 2019 GREENHOUSE GASES  PART 2 SPECIFICATION WITH GUIDANCE AT THE  PROJECT LEVEL FOR QUANTIFICATION MONITORING AND REPORTING OF GREENHOUSE GAS EMISSION REDUCTIONS OR REMOVAL ENHANCEMENTS First Revision",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:53.689795+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25634
+  },
+  {
+    "standard_number": "IS 458:2021",
+    "title": "Precast Concrete Pipes (with and without Reinforcement) -",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:55.734944+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25661
+  },
+  {
+    "standard_number": "IS 17545:2021",
+    "title": "White cement based polymeric putty",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:47.226934+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25690
+  },
+  {
+    "standard_number": "IS/ISO 18758 (Part 2):2018",
+    "title": "Mining and earth-moving machinery  Rock drill rigs and rock reinforcement rigs  Part 2: Safety requirements Adoption of ISO 18758-2:2018",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:06.893423+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25892
+  },
+  {
+    "standard_number": "IS/IEC 61076 (Part 4/Sec 107):2001",
+    "title": "Connectors for electronic equipment \u2013 Part 4-107: Printed board connectors with assessed quality \u2013 Detail specification for shielded two-part connectors having a basic grid of 2.0 mm, fixed part with solder and press-in terminations for printed boards, free part with non-accessible insulation displacement and crimp terminations",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:42.265803+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25901
+  },
+  {
+    "standard_number": "IS 17592:2021",
+    "title": "Reinforcement products -- Woven fabrics -- Determination of width and length",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:51.605163+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 25996
+  },
+  {
+    "standard_number": "IS 17601:2021",
+    "title": "Reinforcement materials -- Tubular braided sleeves -- Basis for a specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:00.344530+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26004
+  },
+  {
+    "standard_number": "IS/IEC 60603 (Part 13):1995",
+    "title": "Connectors for frequencies below 3 MHz for use with printed boards - Part 13: Detail specification for two-part connectors of assessed quality for printed boards for basic grid of 2.54 mm(0.1 in) with free connectors for non-accessible insulation displacement terminations (ID)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:37.876839+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26096
+  },
+  {
+    "standard_number": "IS 17599:2021",
+    "title": "Reinforcement fibres -- Woven fabrics -- Basis for a specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:55.979776+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26338
+  },
+  {
+    "standard_number": "IS 17602:2021",
+    "title": "Reinforcement materials -- Braided tapes -- Basis for a specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:04.683930+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26339
+  },
+  {
+    "standard_number": "IS/ISO 18758 (Part 1):2018",
+    "title": "Mining and earth-moving machinery  Rock drill rigs and rock reinforcement rigs  Part 1: Vocabulary Adoption of ISO 18758",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:02.411143+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26436
+  },
+  {
+    "standard_number": "IS 4031 (Part 8):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 8 Determination of Transverse and Compressive Strength of Plastic Mortar using Prism (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:03.074109+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 265
+  },
+  {
+    "standard_number": "IS 17611:2021",
+    "title": "Reinforcement fabrics -- Determination of conventional flexural stiffness -- Fixed-angle flexometer method",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:09.082402+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26661
+  },
+  {
+    "standard_number": "IS 11551:1996",
+    "title": "Glass fibre chopped strand mat for the reinforcement of epoxy, phenolic and polyesterresin systems - Specification (First Revision)",
+    "replacement": "IS11551:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:25.864200+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2677
+  },
+  {
+    "standard_number": "IS 10086:2021",
+    "title": "Moulds for Use in Tests of Cement, Concrete and Pozzolana (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:04:43.870499+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 26785
+  },
+  {
+    "standard_number": "IS 16481:2022",
+    "title": "Textiles \u2014 Synthetic Micro Fibres for Use in Cement Based Matrix \u2014 Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:10.587302+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 27390
+  },
+  {
+    "standard_number": "IS 17871:2022",
+    "title": "AUTOMOTIVE VEHICLE  NOISE EMITTED BY STATIONARY VEHICLES  METHOD OF MEASURMENT   NON-ORIGINAL REPLACEMENT EXHAUST SILENCING SYSTEMS RESS FOR TWO AND THREE WHEELED VEHICLES",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:17.779129+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 27506
+  },
+  {
+    "standard_number": "IS 11652:2017",
+    "title": "Amendment no. 4 to IS 11652 : 2017 Textiles - High density polyethylene (HDPE)/ polypropylene (PP) woven sacks for packaging of 50 kg cement - Specification (third revision)",
+    "replacement": "IS11652:2017",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:43.168760+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2794
+  },
+  {
+    "standard_number": "IS 16183 (Part 1):2023",
+    "title": "Small craft -  Hull construction and scantlings  Part 1 Materials: Thermosetting resins, glass-fibre reinforcement, reference laminate",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:31.119083+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 28222
+  },
+  {
+    "standard_number": "IS 18075 (Part 1):2023",
+    "title": "Implants for surgery -  Wear of total knee-joint prostheses Part 1 Loading and displacement parameters for wear-testing machines with load control and corresponding environmental conditions for test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:30.800306+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 28223
+  },
+  {
+    "standard_number": "IS 18075 (Part 3):2023",
+    "title": "Implants for surgery - Wear of total knee-joint prostheses  Part 3 Loading and displacement parameters for wear-testing machines with displacement control and corresponding environmental conditions for test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:35.122383+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 28224
+  },
+  {
+    "standard_number": "IS 17908:2023",
+    "title": "FIBRE  CEMENT SHEET -LIGHTWEIGHT CONCRETE SANDWICH PANELS - SPECIFICATION",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:26.459010+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 28417
+  },
+  {
+    "standard_number": "IS 18189:2023",
+    "title": "Portland Calcined Clay Limestone Cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:39.552373+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 28940
+  },
+  {
+    "standard_number": "IS 11745:1986",
+    "title": "Technical supply conditions for positive displacement pumps - Reciprocating",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:47.561684+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2903
+  },
+  {
+    "standard_number": "IS 11761:1997",
+    "title": "Multi - Wall paper sacks for cement - Specification (First Revision)",
+    "replacement": "11761:2024",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:39.043979+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2920
+  },
+  {
+    "standard_number": "IS 11769 (Part 1):1987",
+    "title": "Guidelines for safe use of products containing asbestos: Part 1 asbestos cement products",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:56.271390+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2927
+  },
+  {
+    "standard_number": "IS 11769 (Part 3):1986",
+    "title": "Guidelines For Safe Use Of Products Containing Asbestos: Part 3 Non-cement Asbestos Products Other Than Friction Materials",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:00.596609+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2929
+  },
+  {
+    "standard_number": "IS 11770 (Part 1):1987",
+    "title": "Recommendations for control of emission of asbestos dust in premises manufacturing products containing asbestos: Part 1 asbestos cement products",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:04.952206+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2931
+  },
+  {
+    "standard_number": "IS/ISO 21360 (Part 2):2020",
+    "title": "VACUUM TECHNOLOGY  STANDARD METHOD FOR MEASURING VACUUM- PUMP PERFORMANCE  PART 2 POSITIVE DISPLACEMENT VACUUM PUMPS",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:24:11.304577+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29320
+  },
+  {
+    "standard_number": "IS 11770 (Part 3):1987",
+    "title": "Recommendations For Control Of Emission Of Asbestos Dust In Premises Manufacturing Products Containing Asbestos: Part 3 Non-cement Asbestos Products Other Than Friction Materials",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:09.314135+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 2933
+  },
+  {
+    "standard_number": "IS 18256:2023",
+    "title": "Solid Round Glass Fibre Reinforced Polymer (GFRP) Bars for Concrete Reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:48.256707+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29711
+  },
+  {
+    "standard_number": "IS 5137:2023",
+    "title": "Rubber Hose for Cement Grouting - Specification (Third Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:13.605259+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29726
+  },
+  {
+    "standard_number": "IS 16172:2023",
+    "title": "Reinforcement Couplers for Mechanical Splices of Steel Bars in Concrete - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:26.795895+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29748
+  },
+  {
+    "standard_number": "IS 18453:2023",
+    "title": "Textile Glass Chopped-Strand Mats for Reinforcement of Plastics  Determination  of Time of Dissolution of the Binder in Styrene",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:52.574075+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29761
+  },
+  {
+    "standard_number": "IS 18456:2023",
+    "title": "Plastics  Reinforcement Fibres  Chopped Strands  Determination of Bulk  Density",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:57.577942+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 29764
+  },
+  {
+    "standard_number": "IS 10069:2023",
+    "title": "Hydraulic fluid power  Positive-Displacement Pumps Motors and Integral Transmissions  Methods of Testing and Presenting  Basic Steady State Performance",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:04:30.739549+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30083
+  },
+  {
+    "standard_number": "IS 18255:2023",
+    "title": "Fibre-Reinforced Polymer (FRP) Bars for Concrete Reinforcement - Methods of Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:43.882949+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30100
+  },
+  {
+    "standard_number": "IS 7509:2024",
+    "title": "Thermal Insulating Cements -Specification  (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:51.327837+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30209
+  },
+  {
+    "standard_number": "IS 11320:2024",
+    "title": "Textiles - Glass Fibre Rovings for the Reinforcement of Polyester, Phenolic, Vinyl Ester and of Epoxide Thermoset Resin Systems - Specification (Second Revision of IS 11320)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:34.483299+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30214
+  },
+  {
+    "standard_number": "IS 11551:2024",
+    "title": "Textiles - Glass Fibre Chopped  Strand Mat for the Reinforcement of  Epoxy, Vinyl Ester, Phenolic and  Polyester Thermoset Resin  Systems - Specification (Second Revision of IS 11551)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:38.838098+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30216
+  },
+  {
+    "standard_number": "IS 9450:2024",
+    "title": "Placement of Images in Roll Microfilm \u2014 Guidelines  (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:23.077571+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 30922
+  },
+  {
+    "standard_number": "IS 11906:1986",
+    "title": "Recommendations for cement - Mortar lining for cast - Iron mild steel and ductile - Iron pipes and fittings for transportation of water",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:13.688420+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3101
+  },
+  {
+    "standard_number": "IS 18596 (Part 6):2024",
+    "title": "Recommendations for Renewable Energy and Hybrid Systems for Rural Electrification  Part 6: Acceptance Operation Maintenance and Replacement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:10.704187+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31038
+  },
+  {
+    "standard_number": "IS 18530 (Part 2):2024",
+    "title": "Implants for surgery  Ceramic materials Part 2: Composite materials based on a high-purity alumina matrix with zirconia reinforcement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:06.309671+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31051
+  },
+  {
+    "standard_number": "IS 11761:2024",
+    "title": "MULTI-WALL PAPER SACKS FOR CEMENT- SPECIFICATION ( Second Revision )",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:51.950472+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31382
+  },
+  {
+    "standard_number": "IS 18789:2024",
+    "title": "Dentistry - Zinc oxide-eugenol cements and non-eugenol zinc oxide cements",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:15.027636+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31592
+  },
+  {
+    "standard_number": "IS 10660:2024",
+    "title": "Rubber Hydraulic Hose with Textile Reinforcement \u2014 Specification  (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:06:12.692486+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31681
+  },
+  {
+    "standard_number": "IS 5456:2024",
+    "title": "Positive Displacement Type Air Compressors and Exhausters \u2014 Testing and Acceptance  (Third Revision), Amendment No. 1",
+    "replacement": "IS5456:2024",
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:36.551623+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31711
+  },
+  {
+    "standard_number": "IS 18849:2024",
+    "title": "Textiles -  Workwear for cement workers - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:23.737770+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31901
+  },
+  {
+    "standard_number": "IS 18837:2024",
+    "title": "SOLVENT CEMENTS FOR CHLORINATED POLY (VINYL CHLORIDE) (CPVC) PLASTIC PIPE AND FITTINGS",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:19.361458+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31905
+  },
+  {
+    "standard_number": "IS 6461 (Part 1):2024",
+    "title": "Cement Concrete - Glossary of terms : Part 1 Concrete Aggregates (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:19.087571+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31943
+  },
+  {
+    "standard_number": "IS 6461 (Part 2):2024",
+    "title": "Cement Concrete - Glossary of terms : Part 2  Materials Other than Cement and Aggregate (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:36.645885+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31944
+  },
+  {
+    "standard_number": "IS 6461 (Part 3):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 3 Concrete Reinforcement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:41.053128+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31945
+  },
+  {
+    "standard_number": "IS 6461 (Part 4):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 4 Types of Concrete (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:45.370352+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31946
+  },
+  {
+    "standard_number": "IS 6461 (Part 5):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 5 Formwork for Concrete (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:49.704273+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31947
+  },
+  {
+    "standard_number": "IS 6461 (Part 6):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 6 Equipment Tools and Plant (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:54.044476+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31948
+  },
+  {
+    "standard_number": "IS 6461 (Part 7):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 7 Mixing, Laying, Compaction, Curing and other construction aspects (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:58.400767+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31949
+  },
+  {
+    "standard_number": "IS 6461 (Part 8):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 8 Properties of Concrete  (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:02.795576+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31950
+  },
+  {
+    "standard_number": "IS 6461 (Part 9):2024",
+    "title": "Cement Concrete - Glossary of Terms : Part 9 Structural Aspects (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:07.674585+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31951
+  },
+  {
+    "standard_number": "IS 6461 (Part 10):2024",
+    "title": "Cement Concrete - Glossary of Terms :  Part 10 Tests and Testing Apparatus (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:23.566364+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31952
+  },
+  {
+    "standard_number": "IS 6461 (Part 11):2024",
+    "title": "Cement Concrete - Glossary of Terms :  Part 11 Prestressed Concrete (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:27.890050+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31953
+  },
+  {
+    "standard_number": "IS 6461 (Part 12):2024",
+    "title": "Cement Concrete - Glossary of Terms :  Part 12  Miscellaneous Terms (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:32.248071+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 31954
+  },
+  {
+    "standard_number": "IS 18953 (Part 1):2024",
+    "title": "Graphic technology  Variable content replacement  Part 1: Using PDFX for variable content replacement PDFVCR-1",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:28.071907+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 32140
+  },
+  {
+    "standard_number": "IS 12001:1987",
+    "title": "Specification for jute sacking cloth for cement bag",
+    "replacement": "STANDARDWITHDRAWN",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:43.422687+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3248
+  },
+  {
+    "standard_number": "IS 12002:1987",
+    "title": "Code of Practice for Control of Air Pollution in Cement Plants",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:47.783277+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3249
+  },
+  {
+    "standard_number": "IS 19193:2025",
+    "title": "Non-Active Surgical Implants - Joint Replacement Implants - Specific Requirements for Knee-Joint Replacement Implants",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:49.908290+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 32980
+  },
+  {
+    "standard_number": "IS 19066 (Part 3):2025",
+    "title": "Implants for Surgery - Wear of Total Hip-Joint Prostheses Part 3 Loading and Displacement Parameters for Orbital Bearing Type Wear Testing Machines and Corresponding Environmental Conditions for Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:36.739883+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33024
+  },
+  {
+    "standard_number": "IS 14458 (Part 8):2025",
+    "title": "Retaining Wall for Hill Area - Guidelines: Part 8 Design of Reinforced Cement Concrete (RCC) Retaining Walls",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:16.428785+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33025
+  },
+  {
+    "standard_number": "IS 19066 (Part 1):2025",
+    "title": "Implants for Surgery - Wear of Total Hip-Joint Prostheses Part 1 Loading and Displacement Parameters for Wear-testing Machines and Corresponding Environmental Conditions for Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:32.413673+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33048
+  },
+  {
+    "standard_number": "IS 17365:2025",
+    "title": "Determination of the Long-Term Strength of Geosynthetics for Soil Reinforcement \u2014 Guidelines (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:38.503041+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33060
+  },
+  {
+    "standard_number": "IS 17132:2025",
+    "title": "Replacement Brake Lining Assemblies and Drum Brake  Linings for Power-Driven Vehicles and Their Trailers - Specification  (first revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:12:03.613816+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33127
+  },
+  {
+    "standard_number": "IS 12002:2025",
+    "title": "CONTROL OF AIR POLLUTION IN CEMENT PLANTS - CODE OF PRACTICE  (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:18.011364+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33342
+  },
+  {
+    "standard_number": "IS 19068:2025",
+    "title": "Continuous hot-dip galvanized steel bars for concrete reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:41.078299+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33408
+  },
+  {
+    "standard_number": "IS 19180:2025",
+    "title": "Non-active surgical implants - Joint replacement implants - Specific requirements for hip-joint Replacement implants",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:45.511035+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33414
+  },
+  {
+    "standard_number": "IS 12089:1987",
+    "title": "Specification for Granulated Slag for the Manufacture Portland Slag Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:22.337701+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3354
+  },
+  {
+    "standard_number": "IS 12770:2025",
+    "title": "Coal for Cement Manufacture - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:53.028296+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33654
+  },
+  {
+    "standard_number": "IS 14458 (Part 9):2025",
+    "title": "Retaining Wall for Hill Areas  Guidelines: Part 9 Construction of Reinforced Cement Concrete (RCC)  Crib Wall",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:20.874009+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33828
+  },
+  {
+    "standard_number": "IS 19347:2025",
+    "title": "CARBON DIOXIDE CAPTURE - OVERVIEW OF CARBON DIOXIDE CAPTURE TECHNOLOGIES IN THE CEMENT INDUSTRY",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:54.237515+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 33843
+  },
+  {
+    "standard_number": "IS 12154:1987",
+    "title": "Specification for light weight jute bags for packing cement",
+    "replacement": "STANDARDWITHDRAWN",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:52.246443+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3428
+  },
+  {
+    "standard_number": "IS 12174:1987",
+    "title": "Specification for jute synthetic union bags for packing cement",
+    "replacement": "decidedbycouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:25:56.660686+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3447
+  },
+  {
+    "standard_number": "IS 4031 (Part 10):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement: Part 10 Determination of Drying Shrinkage (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:10.087294+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 358
+  },
+  {
+    "standard_number": "IS 4031 (Part 13):1988",
+    "title": "Methods of Physical Tests for Hydraulic Cement - Part 13 : Measurement of Water Retentivity of Masonry Cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:23.351173+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 359
+  },
+  {
+    "standard_number": "IS 4031 (Part 14):1989",
+    "title": "Hydraulic Cement - Methods of Physical Test: Part 14 Determination of False Set (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:17:27.765505+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 360
+  },
+  {
+    "standard_number": "IS 12330:1988",
+    "title": "Specificatioon for Sulphate Resisting Portland Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:26.699925+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3643
+  },
+  {
+    "standard_number": "IS 1237:2012",
+    "title": "Cement Concrete Flooring Tiles - Specification (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:31.029322+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3683
+  },
+  {
+    "standard_number": "IS 12423:1988",
+    "title": "Method for Colorimetric analysis of Hydraulic Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:35.476891+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 3760
+  },
+  {
+    "standard_number": "IS 12594:1988",
+    "title": "Hot - Dip Zinc Coating on Structural Steel Bars for Concrete Reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:39.828540+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4003
+  },
+  {
+    "standard_number": "IS 12600:1989",
+    "title": "Portland Cement, Low Heat - specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:44.196140+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4010
+  },
+  {
+    "standard_number": "IS 12727:1989",
+    "title": "No - Fines cast in situ cement concrete - Code of practice",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:48.616841+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4161
+  },
+  {
+    "standard_number": "IS 12770:1989",
+    "title": "Coal for cement manufacture - Specification",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:09.873532+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4221
+  },
+  {
+    "standard_number": "IS 12797:1989",
+    "title": "Dental materials - Dental glass polyalkenoate cements - Specification",
+    "replacement": "DecidedbyCouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:14.223388+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4248
+  },
+  {
+    "standard_number": "IS 12803:1989",
+    "title": "Methods of Analysis of Hydraulic Cement by X-ray Fluorescence Spectrometer",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:07:57.406723+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4256
+  },
+  {
+    "standard_number": "IS 12813:1989",
+    "title": "Method of Analysis of Hydraulic Cement by Atomic Absorption Spectrophotometer",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:01.770614+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4267
+  },
+  {
+    "standard_number": "IS 12830:1989",
+    "title": "Rubber based adhesives for fixing pvc tiles to cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:06.113472+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4285
+  },
+  {
+    "standard_number": "IS 12955 (Part 2):1990",
+    "title": "In-sItu determination of rock mass deformability using a flexible dilatometer - Code of practice: Part 2 with radial displacement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:10.449334+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4429
+  },
+  {
+    "standard_number": "IS 12987:1991",
+    "title": "Cast iron detachable joints for use with asbestos cement pressure pipes (Light Duty) - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:14.791154+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4478
+  },
+  {
+    "standard_number": "IS 13000:1990",
+    "title": "Silica-asbestos-cement Flat Sheets -",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:19.165204+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4492
+  },
+  {
+    "standard_number": "IS 13008:1990",
+    "title": "Shallow corrugated asbestos cement sheets -",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:23.491954+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4501
+  },
+  {
+    "standard_number": "IS 13073 (Part 1):2002",
+    "title": "Installation, maintenance and observation of displacement measuring devices in concrete and masonry dams - Code of practice: Part 1 deflection measurement using plumb lines (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:27.826038+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4564
+  },
+  {
+    "standard_number": "IS 13073 (Part 2):2000",
+    "title": "Code of practice for installation, maintenance and observation of displacement measuring devices for concrete and masonry dams: Part 2 geodetic observation - Crest collimation",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:32.237298+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4565
+  },
+  {
+    "standard_number": "IS 5410:2013",
+    "title": "Cement paint - Specification (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:32.018463+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 470
+  },
+  {
+    "standard_number": "IS 13219:1992",
+    "title": "Rock bolts for mines (Cement Grouted) - General requirements",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:36.659083+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4751
+  },
+  {
+    "standard_number": "IS 13356:1992",
+    "title": "Precast Ferrocement Water Tanks up to 10000 Litres Capacity -",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:41.367698+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 4890
+  },
+  {
+    "standard_number": "IS 13527:2013",
+    "title": "Replacement syntans - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:45.819558+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 5183
+  },
+  {
+    "standard_number": "IS 9743:2020",
+    "title": "Thermal Insulation Finishing Cement \u2014 Specification ( Second Revision )",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:23:36.204981+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 520
+  },
+  {
+    "standard_number": "IS 13710:1993",
+    "title": "Dental materials - Dental zinc polycarboxylate cements - Specification",
+    "replacement": "decidedbycouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:27.234814+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 5423
+  },
+  {
+    "standard_number": "IS 14182:1994",
+    "title": "Solvent cement for use with unplasticized polyvinyl chloride plastic pipe and fittings - Specifications",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:54.591142+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 5917
+  },
+  {
+    "standard_number": "IS 14276:2016",
+    "title": "Cement bonded particle boards - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:08:58.997745+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6038
+  },
+  {
+    "standard_number": "IS 1443:2018",
+    "title": "Laying and Finishing of Cement Concrete Tiles - Code of Practice (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:03.406829+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6190
+  },
+  {
+    "standard_number": "IS 14448:1997",
+    "title": "Code of practice for reinforcement of rock slopes with plane wedge failure",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:07.742702+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6213
+  },
+  {
+    "standard_number": "IS 14521:1998",
+    "title": "PVC insulated ribbon cable with a pitch of 1.27 mm suitable for insulation displacement termination",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:25.219799+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6432
+  },
+  {
+    "standard_number": "IS 14602:1999",
+    "title": "Installation methods of positive displacement hydraulic pumps and motors - Guidelines",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:29.568148+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6517
+  },
+  {
+    "standard_number": "IS 14604:1998",
+    "title": "Proforma for purchase Specification for positive displacement pumps and motors used in oil hydraulic systems",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:33.903779+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6519
+  },
+  {
+    "standard_number": "IS 17900 (Part 10):2025",
+    "title": "Lifts for The Transport of Persons and Goods PART 10 Replacement of Existing Passenger and Goods Passenger Lifts in Existing Buildings",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:22.088089+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 65702
+  },
+  {
+    "standard_number": "IS 19464:2025",
+    "title": "Steel Wire for Hose Reinforcement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:59.097970+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 65766
+  },
+  {
+    "standard_number": "IS 19483:2026",
+    "title": "Dentistry  General Requirements for Instruments and Related Accessories Used in Dental Implant Placement and Treatment",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:03.703241+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 65989
+  },
+  {
+    "standard_number": "IS 19492 (Part 1):2025",
+    "title": "Implants for Surgery - Wear of Total Intervertebral Spinal Disc Prostheses Part 1 Loading and Displacement Parameters for Wear Testing and Corresponding Environmental Conditions for Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:08.140833+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66014
+  },
+  {
+    "standard_number": "IS 19500:2026",
+    "title": "Implants for Surgery  Wear of Total Ankle-Joint Prostheses  Loading and Displacement Parameters for Wear-Testing Machines with Load or Displacement Control and Corresponding Environmental Conditions for Test",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:16.816285+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66017
+  },
+  {
+    "standard_number": "IS 19604 (Part 1):2026",
+    "title": "Petroleum, petrochemical and natural gas industries \u2014 Rotary-type positive, displacement compressors \u2014  Part 1: Process compressors (Adoption of ISO 10440-1: 2007)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:21.151323+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66118
+  },
+  {
+    "standard_number": "IS 19604 (Part 2):2026",
+    "title": "Petroleum and natural gas industries \u2014 Rotary-type positive-displacement compressors \u2014 Part 2: Packaged air compressors (oil-free) (Adoption of ISO 10440-2: 2001)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:25.481714+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66119
+  },
+  {
+    "standard_number": "IS 16910 (Part 2/Sec 11)2026",
+    "title": "Video Surveillance Systems VSS for use in security applications - Part 2-11: Video transmission protocols - Interop profiles for VMS and cloud VSaaS systems for safe cities and law enforcement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:54.909561+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66149
+  },
+  {
+    "standard_number": "IS 10069:2017",
+    "title": "Hydraulic fluid power - Positive displacement pumps, motors and integral transmission - Methods of testing and presenting basic steady state performance (Second Revision)",
+    "replacement": "IS10069:2023/ISO4409:2019",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:24:51.007405+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 662
+  },
+  {
+    "standard_number": "IS 19492 (Part 2):2026",
+    "title": "Implants for Surgery  Wear of Total Intervertebral Spinal Disc Prostheses Part 2 Nucleus Replacements",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:12.477115+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66515
+  },
+  {
+    "standard_number": "IS 3466:2026",
+    "title": "Masonry cement - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:39.618847+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66542
+  },
+  {
+    "standard_number": "IS 4845:2026",
+    "title": "Definitions and terminology relating to hydraulic cement First Revision of IS 4845",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:09.082203+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66544
+  },
+  {
+    "standard_number": "IS 10080:2026",
+    "title": "Vibration Machine for casting standard cement mortar cubes  Specification First Revision of IS 10080",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:04:39.453225+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66545
+  },
+  {
+    "standard_number": "IS 6909:2026",
+    "title": "Supersulphated Cement - Specification (Second Revision of IS 6909)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:21:42.601380+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66579
+  },
+  {
+    "standard_number": "IS 8041:2026",
+    "title": "Rapid Hardening Portland Cement  Specification Third Revision of IS 8041",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:39.298422+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66580
+  },
+  {
+    "standard_number": "IS 8043:2026",
+    "title": "Hydrophobic Portland Cement  Specification Third Revision of IS 8043",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:22:52.618558+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66581
+  },
+  {
+    "standard_number": "IS 5367:2026",
+    "title": "Specification For Forceps, Eye, Strabismus, For Advancement (Prince's And Worth's Patterns)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:19:27.508642+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66793
+  },
+  {
+    "standard_number": "IS 19773:2026",
+    "title": "High chrome grinding media ball for cement mills - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:29.885880+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66857
+  },
+  {
+    "standard_number": "IS 432 (Part 1):2026",
+    "title": "Specification for Mild Steel And Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement Part 1 Mild Steel and Medium Tensile Steel Bars Fourth Revision",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:18:25.025473+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 66954
+  },
+  {
+    "standard_number": "IS 6452:2026",
+    "title": "High Alumina Cement for Structural Use - Specification (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:20:14.725136+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 67112
+  },
+  {
+    "standard_number": "IS 14848:2000",
+    "title": "Hydraulic fluid power - Pumps and motors - Geometric displacements",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:38.256147+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6826
+  },
+  {
+    "standard_number": "IS 14862:2000",
+    "title": "Fibre cement flat sheets - specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:42.734951+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6845
+  },
+  {
+    "standard_number": "IS 14871:2000",
+    "title": "Products in fibre reinforced cement - Long corrugated or asymmetrical section sheets and fittings for roofing and cladding - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:47.089027+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6854
+  },
+  {
+    "standard_number": "IS 1489 (Part 1)  : 2015",
+    "title": "Portland Pozzolana Cement - Specification: Part 1 fly Ash Based (Fourth Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:51.479460+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6875
+  },
+  {
+    "standard_number": "IS 1489 (Part 2):2015",
+    "title": "Portland  Pozzolana Cement - Specification: Part 2 Calcined Clay Based (Fourth Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:09:55.865307+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 6876
+  },
+  {
+    "standard_number": "IS 10078:1982",
+    "title": "Specification for Jolting apparatus used for testing Cement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:04:35.087498+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 696
+  },
+  {
+    "standard_number": "IS 15213:2002",
+    "title": "Specification and Characterization Methods for Nonwoven Para-Aramid Reinforcement",
+    "replacement": null,
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:49.200911+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 7257
+  },
+  {
+    "standard_number": "IS 15224:2002",
+    "title": "Laying of plastic translucent sheets made from thermosetting polyester resin (Glass Fibre Reinforced) alone or in conjunction with asbestos cement sheets/ steel sheets/aluminium sheets - Code of practice",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:00.216461+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 7269
+  },
+  {
+    "standard_number": "IS 10086:1982",
+    "title": "Specificaton for moulds for use in tests of cement and concrete",
+    "replacement": "IS10082:2021",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:24:55.336591+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 730
+  },
+  {
+    "standard_number": "IS 15541:2005",
+    "title": "Low cement and ultra low cement castables for general purposes - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:04.585770+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 7678
+  },
+  {
+    "standard_number": "IS 1566:1982",
+    "title": "Specification for Hard - Drawn Steel Wire Fabric for Concrete Reinforcement (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:09.289663+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 7823
+  },
+  {
+    "standard_number": "IS 15786:2008",
+    "title": "Prelaminated cement bonded particle board - Specification",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:13.692000+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 7982
+  },
+  {
+    "standard_number": "IS 1592:2003",
+    "title": "Asbestos cement pressure pipes and joints - Specification (Fourth Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:22.437728+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8040
+  },
+  {
+    "standard_number": "IS 1626 (Part 1):1994",
+    "title": "Asbestos cement building pipes and pipe fittings, gutters and gutter fittings and roofing fitting: Part 1 pipe and pipe fittings (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:35.478415+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8061
+  },
+  {
+    "standard_number": "IS 1626 (Part 2):1994",
+    "title": "Asbestos cement building pipes and pipe fittings, gutters and gutter fittings and roofing fittings: Part 2 gutter and gutter fittings) (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:39.830883+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8062
+  },
+  {
+    "standard_number": "IS 1626 (Part 3):1994",
+    "title": "Asbestos Cement Building types and Pipe Fittings, Gutters and Gutter Fittings and Roofing Fittings -  Part 3 : Roofing Fittings",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:10:44.200170+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8063
+  },
+  {
+    "standard_number": "IS 1661:1972",
+    "title": "Code of practice for application of cement and cement - Lime plaster finishes (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:11:32.655996+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8086
+  },
+  {
+    "standard_number": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:13:13.440135+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8195
+  },
+  {
+    "standard_number": "IS 1849 (Part 1/Sec 2):1991",
+    "title": "Design and installation of vertical mixed feed lime kiln - guide: Part 1 for limestone: Sec 2 reinforced cement concrete type shaft",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:14:01.927481+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8247
+  },
+  {
+    "standard_number": "IS 2096:1992",
+    "title": "Asbestos cement flat sheets - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:38.568690+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8639
+  },
+  {
+    "standard_number": "IS 2098:1997",
+    "title": "Asbestos cement building boards - Specification (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:42.928850+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8641
+  },
+  {
+    "standard_number": "IS 2110:1980",
+    "title": "Code of practice for in situ construction of walls in buildings with soil - Cement (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:47.274477+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 8652
+  },
+  {
+    "standard_number": "IS 2502:1963",
+    "title": "Code of Practice for Bending and Fixing of Bars for Concrete Reinforcement",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:51.606227+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9011
+  },
+  {
+    "standard_number": "IS 10129:2004",
+    "title": "Hydraulic fluid power - Dimensions and identification code for mounting flanges and shaft ends of displacement pumps and motors (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:04:48.205947+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 902
+  },
+  {
+    "standard_number": "IS 2571:1970",
+    "title": "Code of practice for laying in - Situ cement concrete flooring (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:15:55.949887+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9095
+  },
+  {
+    "standard_number": "IS 2580:1995",
+    "title": "Textiles - Jute sacking bags for packing cement - Specification (Third Revision)",
+    "replacement": "STANDARDWITHDRAWN",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:19.675941+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9101
+  },
+  {
+    "standard_number": "IS 2645:2003",
+    "title": "Integral Waterproofing Compounds for Cement Mortar and Concrete - Specification (Second Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:00.294549+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9168
+  },
+  {
+    "standard_number": "IS 2720 (Part 28):1974",
+    "title": "Methods of test for soils: Part 28 determination of dry density of soils, in - Place, by the sand replacement method (First Revision)",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:09.048132+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9247
+  },
+  {
+    "standard_number": "IS 2720 (Part 33):1971",
+    "title": "Methods of test for soils: Part 33 Determination of the density in place by the ring and water replacement method",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:13.390721+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9251
+  },
+  {
+    "standard_number": "IS 3007 (Part 1):1999",
+    "title": "Laying of Asbestos Cement Sheets - Code of Practice - Part 1 : Corrugated Sheets",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:17.759177+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9499
+  },
+  {
+    "standard_number": "IS 3085:1965",
+    "title": "Method of Test for Permeability of Cement Mortar and Concrete",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:26.494750+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9658
+  },
+  {
+    "standard_number": "IS 3140:1965",
+    "title": "Code of practice for painting asbestos cement building products",
+    "replacement": null,
+    "withdraw_status": 0,
+    "retrieved_at": "2026-09-13T08:16:30.994247+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9703
+  },
+  {
+    "standard_number": "IS 3193:1984",
+    "title": "Specification for cotton yarn for braiding for reinforcement and electric cables (first revision)",
+    "replacement": "decidedbycouncil",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:27:28.470286+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 9754
+  },
+  {
+    "standard_number": "IS 12269:2013",
+    "title": "Ordinary Portland cement, 53 grade",
+    "replacement": "IS269:2015",
+    "withdraw_status": 1,
+    "retrieved_at": "2026-09-13T08:26:05.493206+00:00",
+    "source_url": "https://standardsadmin.bis.gov.in/review-service//getWebsiteStandardDetails",
+    "record_id": 98
+  }
+]
