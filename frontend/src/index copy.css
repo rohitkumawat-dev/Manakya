@@ -456,10 +456,5 @@ details p, details li { font-size: 13px; line-height: 1.75; color: #b7b7c2; }
 .rank-type { margin-left:auto; max-width:100%; padding:6px 10px; border:1px solid #37333f; border-radius:6px; color:#c8c2d4; font-size:11px; text-transform:uppercase; letter-spacing:.06em; }
 .ranked-result .standard-title { font-weight:600; font-size:18px; line-height:1.5; }
 .rank-scope { color:#bcb6c7; font-size:14px; line-height:1.7; }
-.recommendation-evidence { display:grid; gap:13px; margin:18px 0; }
-.evidence-row { border-left:2px solid #ac91ee; background:#19161f; padding:12px 15px; margin:12px 0; border-radius:0 10px 10px 0; }
-.evidence-row strong { display:block; font-size:12px; color:#d8c4ff; margin-bottom:6px; }
-.evidence-row p { margin:0; line-height:1.5; color:#e5dfeb; }
-.evidence-row a { display:inline-block; margin-top:8px; color:#c5afff; }
 .tender-ranked-result { padding:22px 0; border-top:1px solid #302d36; }
 @media(max-width:540px) { .rank-summary { gap:12px; } .rank-type { margin-left:0; } }

@@ -121,22 +121,6 @@ function RankSummary({ standard, rank }) {
   </div>;
 }
 
-function CoverageAndWhy({ standard }) {
-  return <div className="recommendation-evidence">
-    {standard.scope_summary ? <div className="evidence-row">
-      <strong>{standard.scope_source_label || "BIS coverage summary"}</strong>
-      <p>{standard.scope_summary}</p>
-      {standard.scope_source_url && <a href={standard.scope_source_url} target="_blank" rel="noopener noreferrer">
-        View BIS source ↗
-      </a>}
-    </div> : <p className="fine-print">BIS scope summary is not yet available for this standard.</p>}
-    <div className="evidence-row">
-      <strong>Why this was recommended</strong>
-      <p>{standard.why_recommended || "Its title may relate to the requested product. Review the full BIS scope before citing it."}</p>
-    </div>
-  </div>;
-}
-
 function CatalogueCard({ standard, rank }) {
   const [copyMessage, setCopyMessage] = useState("");
 
@@ -155,13 +139,23 @@ function CatalogueCard({ standard, rank }) {
     <article className="standard-card ranked-result">
       <RankSummary standard={standard} rank={rank} />
       <span className="match-label">
-        BIS catalogue candidate
+        Catalogue candidate · Details not checked
       </span>
 
       <h3>{standard.is_number}</h3>
       <p className="standard-title">{standard.title}</p>
-      <CoverageAndWhy standard={standard} />
-      <p className="fine-print">Catalogue retrieved: {dateLabel(standard.retrieved_at)} · Scope and current edition require review.</p>
+      <p className="rank-scope">{standard.scope_summary || "Scope summary not available in the collected data."}</p>
+
+      {standard.reason && (
+        <div className="reason-box">{standard.reason}</div>
+      )}
+
+      <p className="fine-print">
+        Catalogue data retrieved: {dateLabel(standard.retrieved_at)}
+        <br />
+        Category assignment is provisional. Verify the scope and
+        current edition on BIS before using this in a tender.
+      </p>
 
       <div className="card-footer">
         <button
@@ -181,7 +175,9 @@ function CatalogueCard({ standard, rank }) {
         </a>
       </div>
 
-      {copyMessage && <p className="fine-print" role="status">{copyMessage}</p>}
+      <p className="fine-print" role="status">
+        {copyMessage}
+      </p>
     </article>
   );
 }
@@ -204,15 +200,62 @@ function StandardCard({ standard, rank }) {
     : ""}
 </span>
 
+<p className="fine-print">
+  {standard.standard_role &&
+    standard.standard_role !== "unclassified" && (
+      <>
+        Standard role:{" "}
+        {standard.standard_role.replaceAll("_", " ")}
+        {" · "}
+      </>
+    )}
+  Technical applicability and current edition require verification.
+</p>
+
       <h3>{standard.is_number}</h3>
       <p className="standard-title">{standard.title}</p>
-      <CoverageAndWhy standard={standard} />
-      <p className="fine-print">Data retrieved: {dateLabel(standard.retrieved_at)} · Scope and current edition require review.</p>
+      <p className="rank-scope">{standard.scope_summary || "Scope summary not available in the collected data."}</p>
+
+      {standard.reason && (
+        
+        <div className="reason-box">{standard.reason}</div>
+      )}
+
+      <dl className="record-dates">
+        <div>
+          <dt>Data retrieved on</dt>
+          <dd>{dateLabel(standard.retrieved_at)}</dd>
+        </div>
+        <div>
+          <dt>Reaffirmation recorded</dt>
+          <dd>{dateLabel(standard.reaffirmation_date)}</dd>
+        </div>
+        <div>
+          <dt>Amendments checked</dt>
+          <dd>{dateLabel(standard.amendments_checked_at)}</dd>
+        </div>
+      </dl>
+
+      <p className="fine-print">
+        Retrieval dates show when our data was collected, not when
+        BIS last changed the standard.
+      </p>
+
+      <details>
+        <summary>Scope and applicability</summary>
+        <p>
+          {standard.scope_summary ||
+            "A scope summary is not available yet."}
+        </p>
+        <p className="fine-print">
+          {standard.scope_verified
+            ? "Scope checked against recorded evidence."
+            : "Scope evidence has not yet been verified."}
+        </p>
+      </details>
 
       <details>
         <summary>Revisions and amendments</summary>
-        <p>Reaffirmation recorded: {dateLabel(standard.reaffirmation_date)}</p>
-        <p>Amendment data checked: {dateLabel(standard.amendments_checked_at)}</p>
 
         {(standard.revision_check?.warnings ?? []).map(
           (warning, index) => <p key={index}>{warning}</p>
@@ -274,6 +317,14 @@ function StandardCard({ standard, rank }) {
       
       
       <div className="card-footer">
+        <small>
+          Similarity:{" "}
+          {typeof standard.similarity === "number"
+            ? standard.similarity.toFixed(3)
+            : "Unavailable"}
+          {" · "}Not a confidence score
+        </small>
+
         <a
           href={BIS_CATALOGUE}
           target="_blank"

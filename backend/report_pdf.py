@@ -120,15 +120,17 @@ def build_pdf(report):
         for j, standard in enumerate(candidates, 1):
             paragraph(f"Candidate {j}: {standard.get('is_number', '')}", 'Heading3')
             paragraph(standard.get('title', ''))
-            paragraph('Selection basis: ' + (standard.get('reason') or 'No explanation recorded.'))
+            paragraph('Why recommended: ' + (standard.get('why_recommended') or 'Review this candidate against the requirement and BIS scope.'))
             paragraph('Record level: ' + (standard.get('record_level') or 'Not recorded'))
             paragraph('Role: ' + (standard.get('standard_role') or 'Unclassified'))
             paragraph('Category metadata: ' + ('Reviewed' if standard.get('category_verified') else 'Provisional'))
             paragraph('Data retrieved: ' + (standard.get('retrieved_at') or 'Not recorded'))
             paragraph('Reaffirmation recorded: ' + (standard.get('reaffirmation_date') or 'Not recorded'))
             paragraph('Amendment retrieval: ' + (standard.get('amendments_checked_at') or 'Not recorded'))
-            paragraph('Scope: ' + (standard.get('scope_summary') or 'No scope summary available.'))
-            paragraph('Scope evidence: ' + ('Marked reviewed in stored record; full applicability still requires checking.' if standard.get('scope_verified') else 'Not verified.'))
+            paragraph((standard.get('scope_source_label') or 'BIS coverage summary') + ': ' + (standard.get('scope_summary') or 'No source-backed summary available.'))
+            if standard.get('scope_source_url'):
+                paragraph('Coverage source: ' + standard['scope_source_url'])
+            paragraph('Full standard scope and technical applicability require review.')
             for warning in (standard.get('revision_check') or {}).get('warnings') or []:
                 paragraph('Review note: ' + warning)
             paragraph('Recorded amendments', 'Heading4')

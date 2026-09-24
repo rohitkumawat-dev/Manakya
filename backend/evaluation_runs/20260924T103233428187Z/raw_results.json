@@ -1,0 +1,24 @@
+[
+  {
+    "id": "Q01",
+    "family_id": "F01",
+    "category": "construction",
+    "query": "Supply fly-ash-based Portland pozzolana cement.",
+    "expected_codes": [
+      "IS 1489 (Part 1)"
+    ],
+    "source_url": "https://lims.bis.gov.in/home_lab_scope/78/",
+    "label_basis": "BIS product-title association; provisional retrieval label",
+    "source_checked_on": "2026-09-24",
+    "query_origin": "synthetic",
+    "variant": 1,
+    "returned_codes": [],
+    "hit_at": {
+      "1": 0,
+      "3": 0,
+      "5": 0
+    },
+    "error": "TimeoutError: timed out",
+    "elapsed_seconds": 45.1
+  }
+]

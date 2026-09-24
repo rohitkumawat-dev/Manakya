@@ -130,10 +130,17 @@ export default function TenderReview({ disabled, onBusyChange }) {
               <RankSummary standard={standard} rank={i + 1} />
               <h3>{standard.is_number}</h3>
               <p>{standard.title}</p>
-              <p className="reason-box">{standard.reason || "Potential candidate. Technical applicability needs review."}</p>
-              <p className="fine-print">Data retrieved: {standard.retrieved_at || "Not recorded"}</p>
+              {standard.scope_summary ? <div className="evidence-row">
+                <strong>{standard.scope_source_label || "BIS coverage summary"}</strong>
+                <p>{standard.scope_summary}</p>
+                {standard.scope_source_url && <a href={standard.scope_source_url} target="_blank" rel="noopener noreferrer">View BIS source ↗</a>}
+              </div> : <p className="fine-print">BIS scope summary is not yet available for this standard.</p>}
+              <div className="evidence-row">
+                <strong>Why this was recommended</strong>
+                <p>{standard.why_recommended || "Its title may relate to the requested product. Review the full BIS scope before citing it."}</p>
+              </div>
+              <p className="fine-print">Data retrieved: {standard.retrieved_at || "Not recorded"} · Check the current edition on BIS.</p>
               <details><summary>Evidence and limitations</summary>
-                <p>{standard.scope_summary || "No scope summary available."}</p>
                 {(standard.revision_check?.warnings ?? []).map((warning, j) => <p key={j}>{warning}</p>)}
                 <p>{standard.certification_check?.message}</p>
               </details>

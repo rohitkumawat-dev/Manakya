@@ -1,0 +1,706 @@
+{
+  "version": "1.0",
+  "matching": "standard family and part; year ignored",
+  "queries": [
+    {
+      "id": "Q01",
+      "family_id": "F01",
+      "category": "construction",
+      "query": "Supply fly-ash-based Portland pozzolana cement.",
+      "expected_codes": [
+        "IS 1489 (Part 1)"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/78/",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q02",
+      "family_id": "F01",
+      "category": "construction",
+      "query": "We need PPC manufactured using fly ash.",
+      "expected_codes": [
+        "IS 1489 (Part 1)"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/78/",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q03",
+      "family_id": "F02",
+      "category": "construction",
+      "query": "Supply calcined-clay-based Portland pozzolana cement.",
+      "expected_codes": [
+        "IS 1489 (Part 2)"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/product-specific-information-2/product-manualsmk/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q04",
+      "family_id": "F02",
+      "category": "construction",
+      "query": "Procure PPC made using calcined clay.",
+      "expected_codes": [
+        "IS 1489 (Part 2)"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/product-specific-information-2/product-manualsmk/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q05",
+      "family_id": "F03",
+      "category": "construction",
+      "query": "Supply Portland slag cement.",
+      "expected_codes": [
+        "IS 455"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/78/",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q06",
+      "family_id": "F03",
+      "category": "construction",
+      "query": "Purchase slag-blended Portland cement.",
+      "expected_codes": [
+        "IS 455"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/78/",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q07",
+      "family_id": "F04",
+      "category": "construction",
+      "query": "Supply ordinary Portland cement.",
+      "expected_codes": [
+        "IS 269"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q08",
+      "family_id": "F04",
+      "category": "construction",
+      "query": "Procure OPC cement for construction.",
+      "expected_codes": [
+        "IS 269"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q09",
+      "family_id": "F05",
+      "category": "construction",
+      "query": "Supply white Portland cement.",
+      "expected_codes": [
+        "IS 8042"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q10",
+      "family_id": "F05",
+      "category": "construction",
+      "query": "Purchase Portland cement of the white variety.",
+      "expected_codes": [
+        "IS 8042"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q11",
+      "family_id": "F06",
+      "category": "construction",
+      "query": "Supply sulphate-resisting Portland cement.",
+      "expected_codes": [
+        "IS 12330"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q12",
+      "family_id": "F06",
+      "category": "construction",
+      "query": "Procure Portland cement specifically formulated to resist sulphates.",
+      "expected_codes": [
+        "IS 12330"
+      ],
+      "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-i-mark-scheme/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q13",
+      "family_id": "F07",
+      "category": "construction",
+      "query": "Supply coarse and fine aggregates for concrete.",
+      "expected_codes": [
+        "IS 383"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q14",
+      "family_id": "F07",
+      "category": "construction",
+      "query": "Purchase aggregate for making concrete.",
+      "expected_codes": [
+        "IS 383"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q15",
+      "family_id": "F08",
+      "category": "construction",
+      "query": "Supply high-strength deformed steel reinforcement bars.",
+      "expected_codes": [
+        "IS 1786"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q16",
+      "family_id": "F08",
+      "category": "construction",
+      "query": "Procure deformed steel bars for reinforced concrete.",
+      "expected_codes": [
+        "IS 1786"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q17",
+      "family_id": "F09",
+      "category": "construction",
+      "query": "Supply ready-mixed concrete.",
+      "expected_codes": [
+        "IS 4926"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q18",
+      "family_id": "F09",
+      "category": "construction",
+      "query": "Purchase concrete delivered as ready mix.",
+      "expected_codes": [
+        "IS 4926"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q19",
+      "family_id": "F10",
+      "category": "construction",
+      "query": "Supply mechanical couplers for concrete reinforcement bars.",
+      "expected_codes": [
+        "IS 16172"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q20",
+      "family_id": "F10",
+      "category": "construction",
+      "query": "Procure couplers to splice steel reinforcing bars.",
+      "expected_codes": [
+        "IS 16172"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q21",
+      "family_id": "F11",
+      "category": "electrical",
+      "query": "Supply PVC-insulated building wires rated 450/750 V.",
+      "expected_codes": [
+        "IS 694"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q22",
+      "family_id": "F11",
+      "category": "electrical",
+      "query": "Procure PVC insulated cables for building wiring at 450/750 V.",
+      "expected_codes": [
+        "IS 694"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q23",
+      "family_id": "F12",
+      "category": "electrical",
+      "query": "Supply heavy-duty PVC insulated electrical cables up to 1100 V.",
+      "expected_codes": [
+        "IS 1554 (Part 1)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q24",
+      "family_id": "F12",
+      "category": "electrical",
+      "query": "Procure 1.1 kV heavy duty cables with PVC insulation.",
+      "expected_codes": [
+        "IS 1554 (Part 1)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q25",
+      "family_id": "F13",
+      "category": "electrical",
+      "query": "Supply XLPE insulated thermoplastic sheathed cables up to 1100 V.",
+      "expected_codes": [
+        "IS 7098 (Part 1)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q26",
+      "family_id": "F13",
+      "category": "electrical",
+      "query": "Procure 1.1 kV crosslinked polyethylene insulated power cables.",
+      "expected_codes": [
+        "IS 7098 (Part 1)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q27",
+      "family_id": "F14",
+      "category": "electrical",
+      "query": "Supply XLPE insulated thermoplastic sheathed cables rated 11 kV.",
+      "expected_codes": [
+        "IS 7098 (Part 2)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q28",
+      "family_id": "F14",
+      "category": "electrical",
+      "query": "Procure 11 kV crosslinked polyethylene insulated electrical cables.",
+      "expected_codes": [
+        "IS 7098 (Part 2)"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q29",
+      "family_id": "F15",
+      "category": "electrical",
+      "query": "Supply 250 V electrical plugs and socket outlets rated 16 A.",
+      "expected_codes": [
+        "IS 1293"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q30",
+      "family_id": "F15",
+      "category": "electrical",
+      "query": "Procure 16 amp plugs and sockets for 250 volt service.",
+      "expected_codes": [
+        "IS 1293"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q31",
+      "family_id": "F16",
+      "category": "electrical",
+      "query": "Supply aerial bunched electrical cables rated 1100 V.",
+      "expected_codes": [
+        "IS 14255"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q32",
+      "family_id": "F16",
+      "category": "electrical",
+      "query": "Procure 1.1 kV aerial bundled power cables.",
+      "expected_codes": [
+        "IS 14255"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q33",
+      "family_id": "F17",
+      "category": "electrical",
+      "query": "Supply electric ceiling fans and regulators.",
+      "expected_codes": [
+        "IS 374"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q34",
+      "family_id": "F17",
+      "category": "electrical",
+      "query": "Procure ceiling-mounted electrical fans with speed regulators.",
+      "expected_codes": [
+        "IS 374"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q35",
+      "family_id": "F18",
+      "category": "electrical",
+      "query": "Supply boxes for household fixed electrical accessories.",
+      "expected_codes": [
+        "IS 14772"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q36",
+      "family_id": "F18",
+      "category": "electrical",
+      "query": "Procure enclosures for accessories in fixed electrical installations.",
+      "expected_codes": [
+        "IS 14772"
+      ],
+      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q37",
+      "family_id": "F19",
+      "category": "plumbing",
+      "query": "Supply unplasticized PVC pipes for potable water.",
+      "expected_codes": [
+        "IS 4985"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q38",
+      "family_id": "F19",
+      "category": "plumbing",
+      "query": "Procure UPVC pipes to carry drinking water.",
+      "expected_codes": [
+        "IS 4985"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q39",
+      "family_id": "F20",
+      "category": "plumbing",
+      "query": "Supply polyethylene pipes for water supply.",
+      "expected_codes": [
+        "IS 4984"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q40",
+      "family_id": "F20",
+      "category": "plumbing",
+      "query": "Procure HDPE pipes for a water distribution line.",
+      "expected_codes": [
+        "IS 4984"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q41",
+      "family_id": "F21",
+      "category": "plumbing",
+      "query": "Supply CPVC pipes for potable hot and cold water.",
+      "expected_codes": [
+        "IS 15778"
+      ],
+      "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=15778",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q42",
+      "family_id": "F21",
+      "category": "plumbing",
+      "query": "Procure chlorinated PVC pipes for hot-water and cold-water distribution.",
+      "expected_codes": [
+        "IS 15778"
+      ],
+      "source_url": "https://lims.bis.gov.in/home/search_is_number/?is_number__doc_no=15778",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q43",
+      "family_id": "F22",
+      "category": "plumbing",
+      "query": "Supply PVC-U pipes for soil and waste discharge.",
+      "expected_codes": [
+        "IS 13592"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q44",
+      "family_id": "F22",
+      "category": "plumbing",
+      "query": "Procure unplasticized PVC waste pipes for building drainage.",
+      "expected_codes": [
+        "IS 13592"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q45",
+      "family_id": "F23",
+      "category": "plumbing",
+      "query": "Supply rotational moulded polyethylene water storage tanks.",
+      "expected_codes": [
+        "IS 12701"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q46",
+      "family_id": "F23",
+      "category": "plumbing",
+      "query": "Procure rotomoulded polyethylene tanks for storing water.",
+      "expected_codes": [
+        "IS 12701"
+      ],
+      "source_url": "https://lims.bis.gov.in/home_lab_scope/2179/?page=2",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q47",
+      "family_id": "F24",
+      "category": "plumbing",
+      "query": "Supply oriented PVC pipes for water supply.",
+      "expected_codes": [
+        "IS 16647"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q48",
+      "family_id": "F24",
+      "category": "plumbing",
+      "query": "Procure PVC-O pipes for water distribution.",
+      "expected_codes": [
+        "IS 16647"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    },
+    {
+      "id": "Q49",
+      "family_id": "F25",
+      "category": "plumbing",
+      "query": "Supply copper alloy fancy taps for water services.",
+      "expected_codes": [
+        "IS 8931"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 1
+    },
+    {
+      "id": "Q50",
+      "family_id": "F25",
+      "category": "plumbing",
+      "query": "Procure decorative copper-alloy water taps.",
+      "expected_codes": [
+        "IS 8931"
+      ],
+      "source_url": "https://www.bis.gov.in/wp-content/uploads/2021/09/Indian-Standards-in-PHEDs.pdf",
+      "label_basis": "BIS product-title association; provisional retrieval label",
+      "source_checked_on": "2026-09-24",
+      "query_origin": "synthetic",
+      "variant": 2
+    }
+  ]
+}

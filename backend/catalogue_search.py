@@ -1,5 +1,6 @@
 import copy
 import html
+import json
 import os
 import re
 from collections import Counter
@@ -17,6 +18,32 @@ BIS_CATALOGUE = (
     "https://standards.bis.gov.in/website/know-your-standards"
 )
 CATEGORIES = {"construction", "electrical", "plumbing"}
+
+
+def load_scope_evidence():
+    """Only join summaries to the exact edition documented by the source."""
+    path = Path(__file__).resolve().parent / "scope_evidence.json"
+    if not path.exists():
+        return {}
+    try:
+        entries = json.loads(path.read_text(encoding="utf-8"))["entries"]
+        if not isinstance(entries, list):
+            raise ValueError("entries must be a list")
+        output = {}
+        for entry in entries:
+            if not isinstance(entry, dict):
+                continue
+            number = normalized(entry.get("is_number"))
+            summary = clean(entry.get("summary"))
+            url = clean(entry.get("source_url"))
+            if not number or not summary or not url.startswith("https://"):
+                continue
+            if number in output:
+                raise ValueError(f"Duplicate scope evidence for {number}")
+            output[number] = entry
+        return output
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        raise ValueError(f"Invalid scope evidence file: {error}") from error
 
 
 def clean(value):
@@ -141,7 +168,7 @@ def product_intent(query):
     ):
         return "supporting"
 
-    if re.search(r"\binsulation\b|\bsheath\b|\bconductors?\b", text):
+    if not re.search(r"\bcables?\b|\bwires?\b", text) and re.search(r"\binsulation\b|\bsheath\b|\bconductors?\b", text):
         return "supporting"
 
     if re.search(r"\bcement\b", text) and not re.search(
@@ -167,9 +194,49 @@ def product_intent(query):
     return None
 
 
+def voltage_values(text):
+    # Join grouped thousands only (e.g. BIS titles containing "1 100 V").
+    text = re.sub(r"(?<=\d)[ ,](?=\d{3}\b)", "", text.lower())
+    matches = re.findall(r"(?<![\w.])(\d+(?:\.\d+)?)(?:\s*/\s*(\d+(?:\.\d+)?))?\s*(kv|volts?|v)\b", text)
+    return [float(value) * (1000 if unit == "kv" else 1)
+            for first, second, unit in matches for value in (first, second) if value]
+
+
+def voltage_compatible(query, title):
+    """Reject only a conflict with an explicit title voltage range.
+
+    Missing/complex voltage evidence is unknown, not verified compatible.
+    This does not establish AC/DC, U0/U, insulation or scope applicability.
+    """
+    requested = voltage_values(query)
+    if not requested:
+        return True
+    t = re.sub(r"(?<=\d)[ ,](?=\d{3}\b)", "", title.lower())
+    number = r"\d+(?:\.\d+)?"
+    unit = r"(?:kv|volts?|v)"
+    pair = re.search(
+        rf"\bfrom\s+({number})\s*({unit})?\s+(?:up\s+to(?:\s+and\s+including)?|to)\s+({number})\s*({unit})\b", t)
+    if pair:
+        lo, lu, hi, hu = pair.groups()
+        lower = float(lo) * (1000 if (lu or hu) == 'kv' else 1)
+        upper = float(hi) * (1000 if hu == 'kv' else 1)
+        if lower > upper:
+            return True
+        return all(lower <= v <= upper for v in requested)
+    upper = re.search(rf"\b(?:up\s+to(?:\s+and\s+including)?|not\s+exceeding)\s+({number})\s*({unit})\b", t)
+    if upper:
+        value, u = upper.groups()
+        maximum = float(value) * (1000 if u == 'kv' else 1)
+        return all(v <= maximum for v in requested)
+    return True
+
+
 def title_fits(query, title, intent, role, category):
     q = clean(query).lower()
     t = clean(title).lower()
+
+    if intent == "cable" and not voltage_compatible(q, t):
+        return False
 
     # Broad discovery tags alone are insufficient for these categories.
     if category == "plumbing":
@@ -201,6 +268,9 @@ def title_fits(query, title, intent, role, category):
             return False
 
     if intent == "cable":
+        if re.search(r"\bxlpe\b|\bcross[ -]?linked polyethylene\b", q):
+            if not re.search(r"\bxlpe\b|\bcross[ -]?linked polyethylene\b", t):
+                return False
         if re.search(r"\bcurrent ratings?\b|\btest and measuring methods\b", t):
             return False
         if re.search(r"\bbuilding\b|\bhousehold\b|\bdomestic\b", q):
@@ -317,10 +387,25 @@ def lexical_tokens(text):
     return [plurals.get(t, t) for t in re.findall(r"[^\W_]+", clean(text).lower())
             if t not in STOP_WORDS]
 
+
+def why_recommended(query, record, overlap=None, exact=False):
+    if exact:
+        return "The IS number matches the identifier you entered. Check the standard's scope and current edition before citing it."
+    # An overlap is an observation about text, never proof of applicability.
+    title_terms = set(lexical_tokens(record.get("title", "")))
+    query_terms = list(dict.fromkeys(lexical_tokens(query)))
+    shared = [term for term in query_terms if term in title_terms and term not in {"is", "part"}]
+    if shared:
+        return "Its title matches your terms: " + ", ".join(shared[:5]) + ". Confirm the full scope before using it."
+    if overlap and record.get("scope_summary"):
+        return "The BIS coverage summary contains related terms. Review its source and the full standard before citing it."
+    return "Semantic search found a related title. Check the full scope before using this code."
+
 def search_text(record):
-    # Never fabricate scope/body text from metadata or model output.
+    # Keep retrieval on the existing IS number + title index. Coverage summaries
+    # are displayed as evidence until evaluated for their effect on ranking.
     return ". ".join(clean(record.get(key)) for key in
-                     ("is_number", "title", "scope_summary") if record.get(key))
+                     ("is_number", "title") if record.get(key))
 
 def reciprocal_rank_fusion(dense, lexical, k=60):
     scores = {}
@@ -335,6 +420,7 @@ class CatalogueSearch:
         self.model = model
         self.records = []
         self.vectors = None
+        scope_evidence = load_scope_evidence()
 
         with psycopg.connect(
             host=os.getenv("PGHOST", "localhost"),
@@ -491,6 +577,7 @@ class CatalogueSearch:
             amendment_date = evidence.get(
                 "getAmendmentDetails", {}
             ).get("retrieved_at")
+            scope = scope_evidence.get(normalized(number), {})
 
             self.records.append({
                 "standard_id": sid,
@@ -503,7 +590,9 @@ class CatalogueSearch:
                     profile["role"] if profile else infer_role(title)
                 ),
                 "record_level": "detailed" if detailed else "catalogue",
-                "scope_summary": "",
+                "scope_summary": clean(scope.get("summary")),
+                "scope_source_url": scope.get("source_url"),
+                "scope_source_label": scope.get("source_label"),
                 "scope_verified": False,
                 "latest_version_verified": False,
                 "applicability_verified": False,
@@ -585,6 +674,7 @@ class CatalogueSearch:
                         "Exact identifier match. Technical applicability "
                         "and latest-edition status remain unverified."
                     ),
+                    "why_recommended": why_recommended(query, self.records[index], exact=True),
                 }
                 for index in eligible
                 if identifier_matches(
@@ -628,7 +718,7 @@ class CatalogueSearch:
         fused = reciprocal_rank_fusion(dense, lexical)
         dense_ranks = {i: rank for rank, i in enumerate(dense, 1)}
         lexical_ranks = {i: rank for rank, i in enumerate(lexical, 1)}
-        order = sorted(fused, key=lambda i: (-fused[i], self.records[i]["standard_id"]))
+        order = sorted(fused, key=lambda i: (-fused[i], -float(scores[i]) if np.isfinite(scores[i]) else 0.0, self.records[i]["standard_id"]))
         output = []
         for index in order[:limit]:
             record = copy.deepcopy(self.records[index])
@@ -650,7 +740,7 @@ class CatalogueSearch:
                 "reason": "Retrieved using " + " and ".join(methods) + ". "
                     + ("Matching terms: " + ", ".join(overlap[:8]) + ". " if overlap else "")
                     + "Technical applicability and latest edition remain unverified.",
+                "why_recommended": why_recommended(query, record, overlap=overlap),
             })
             output.append(record)
         return output
-

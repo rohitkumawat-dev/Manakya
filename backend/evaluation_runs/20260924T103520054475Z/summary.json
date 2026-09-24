@@ -1,0 +1,86 @@
+{
+  "run_label": "local-current",
+  "started_utc": "2026-09-24T10:35:20.054475+00:00",
+  "dataset_sha256": "51f268f5d4524f664adcf5c4973f00c6a80bb88ef8a0e557e184b2b65272e12e",
+  "api_url": "http://127.0.0.1:8000/api/analyze",
+  "evaluation_type": "Synthetic standard-family retrieval; not edition or technical applicability verification",
+  "overall": {
+    "queries": 50,
+    "request_errors": 0,
+    "top_1": {
+      "hits": 35,
+      "total": 50,
+      "percent": 70.0
+    },
+    "top_3": {
+      "hits": 45,
+      "total": 50,
+      "percent": 90.0
+    },
+    "top_5": {
+      "hits": 45,
+      "total": 50,
+      "percent": 90.0
+    }
+  },
+  "by_category": {
+    "construction": {
+      "queries": 20,
+      "request_errors": 0,
+      "top_1": {
+        "hits": 14,
+        "total": 20,
+        "percent": 70.0
+      },
+      "top_3": {
+        "hits": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "top_5": {
+        "hits": 20,
+        "total": 20,
+        "percent": 100.0
+      }
+    },
+    "electrical": {
+      "queries": 16,
+      "request_errors": 0,
+      "top_1": {
+        "hits": 12,
+        "total": 16,
+        "percent": 75.0
+      },
+      "top_3": {
+        "hits": 14,
+        "total": 16,
+        "percent": 87.5
+      },
+      "top_5": {
+        "hits": 14,
+        "total": 16,
+        "percent": 87.5
+      }
+    },
+    "plumbing": {
+      "queries": 14,
+      "request_errors": 0,
+      "top_1": {
+        "hits": 9,
+        "total": 14,
+        "percent": 64.29
+      },
+      "top_3": {
+        "hits": 11,
+        "total": 14,
+        "percent": 78.57
+      },
+      "top_5": {
+        "hits": 11,
+        "total": 14,
+        "percent": 78.57
+      }
+    }
+  },
+  "median_request_seconds": 0.09
+}
