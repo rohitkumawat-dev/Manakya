@@ -9,10 +9,20 @@
     },
     {
       "is_number": "IS 1489 (Part 1):2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for Portland pozzolana cement using fly ash as the pozzolana.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
+      "summary": "Covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
+      "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%201489%20:%20Part%201&id=7040",
+      "source_label": "Standard scope — manually transcribed",
+      "source_checked_on": "2026-09-26",
+      "more_details": {
+        "category": "construction",
+        "title": "Portland Pozzolana Cement - Specification: Part 1 fly Ash Based (Fourth Revision)",
+        "scope_text": "This standard (Part 1) covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": 2020,
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"}
     },
     {
       "is_number": "IS 1489 (Part 2):2015",

@@ -390,16 +390,33 @@ def lexical_tokens(text):
 
 def why_recommended(query, record, overlap=None, exact=False):
     if exact:
-        return "The IS number matches the identifier you entered. Check the standard's scope and current edition before citing it."
-    # An overlap is an observation about text, never proof of applicability.
-    title_terms = set(lexical_tokens(record.get("title", "")))
+        return "The IS number matches the identifier you entered."
     query_terms = list(dict.fromkeys(lexical_tokens(query)))
-    shared = [term for term in query_terms if term in title_terms and term not in {"is", "part"}]
-    if shared:
-        return "Its title matches your terms: " + ", ".join(shared[:5]) + ". Confirm the full scope before using it."
-    if overlap and record.get("scope_summary"):
-        return "The BIS coverage summary contains related terms. Review its source and the full standard before citing it."
-    return "Semantic search found a related title. Check the full scope before using this code."
+    for field, label in (("scope_summary", "The recorded scope"),
+                         ("title", "The standard title")):
+        terms = set(lexical_tokens(record.get(field, "")))
+        shared = [term for term in query_terms
+                  if term in terms and term not in {"is", "part"}]
+        if shared:
+            return label + " includes terms from your requirement: " + ", ".join(shared[:6]) + "."
+    return "Semantic search identified a related standard title; confirm the intended use against its scope."
+
+def scope_display_fields(scope):
+    """Manual observations are displayed separately from API metadata."""
+    raw = scope.get("manual_details")
+    raw = raw if isinstance(raw, dict) else {}
+    keys = ("category", "title", "scope_text", "publication_date",
+            "reaffirmation_year_as_shown", "amendment_count_as_shown",
+            "status_as_shown", "replacement_standard", "certification_as_shown",
+            "standard_type")
+    manual = {key: raw[key] for key in keys
+              if key in raw and (raw[key] is None or isinstance(raw[key], (str, int, float, bool)))}
+    return {
+        "manual_details": manual,
+        "scope_checked_on": scope.get("source_checked_on"),
+        "standard_type": clean(manual.get("standard_type")) or None,
+    }
+
 
 def search_text(record):
     # Keep retrieval on the existing IS number + title index. Coverage summaries
@@ -593,6 +610,7 @@ class CatalogueSearch:
                 "scope_summary": clean(scope.get("summary")),
                 "scope_source_url": scope.get("source_url"),
                 "scope_source_label": scope.get("source_label"),
+                **scope_display_fields(scope),
                 "scope_verified": False,
                 "latest_version_verified": False,
                 "applicability_verified": False,
