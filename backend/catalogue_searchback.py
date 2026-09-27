@@ -153,24 +153,10 @@ def response_data(responses, endpoint, expected):
 
 
 def reference_rows(items, incoming=False):
-    """Dedup BIS cross-reference rows by IS number (or title, if no number).
-
-    Ranking/grouping/capping against a query happens later, in
-    rank_and_group_references, since relevance depends on the query and
-    this function only has the raw BIS payload to work with.
-    """
-    seen = {}
-    for item in (items or []):
-        if not isinstance(item, dict):
-            continue
-        is_number = item.get("standardNumber")
-        title = clean(item.get("standardName"))
-        key = is_number or title
-        if not key or key in seen:
-            continue
-        seen[key] = {
-            "is_number": is_number,
-            "title": title,
+    return [
+        {
+            "is_number": item.get("standardNumber"),
+            "title": clean(item.get("standardName")),
             "bis_reference_type": item.get("typeLabel"),
             "relationship": (
                 "Listed by BIS as referencing this standard"
@@ -179,7 +165,9 @@ def reference_rows(items, incoming=False):
             ),
             "applicability_verified": False,
         }
-    return list(seen.values())
+        for item in (items or [])
+        if isinstance(item, dict)
+    ]
 
 
 def infer_role(title):
@@ -206,52 +194,6 @@ def infer_role(title):
         return "test_or_reference"
 
     return "unclassified"
-
-
-# Human-readable group labels for the report/UI, reusing the same role
-# taxonomy infer_role() already assigns to standards elsewhere in this file.
-ROLE_LABELS = {
-    "test_or_reference": "Testing & terminology standards",
-    "installation": "Installation / codes of practice",
-    "material": "Material standards",
-    "component": "Component standards",
-    "unclassified": "Other related standards",
-}
-
-
-def rank_and_group_references(refs, query_vector, model, limit=10, per_group_cap=4):
-    """Rank deduped reference rows by relevance to the query, then cap them.
-
-    Grouping by infer_role() prevents one relationship type (e.g. a long
-    list of "referenced by" test-method standards) from crowding out every
-    other type before the final cap is applied.
-    """
-    if not refs:
-        return []
-
-    titles = [ref["title"] for ref in refs]
-    ref_vectors = model.encode(
-        titles,
-        normalize_embeddings=True,
-        convert_to_numpy=True,
-        show_progress_bar=False,
-    ).astype("float32")
-
-    scored = []
-    for ref, vector in zip(refs, ref_vectors):
-        score = float(vector @ query_vector) if query_vector is not None else 0.0
-        scored.append({**ref, "relevance_score": round(score, 4)})
-    scored.sort(key=lambda r: r["relevance_score"], reverse=True)
-
-    grouped = {}
-    for ref in scored:
-        role = infer_role(ref["title"])
-        grouped.setdefault(role, []).append(ref)
-        ref["reference_group"] = ROLE_LABELS.get(role, ROLE_LABELS["unclassified"])
-
-    output = [ref for group in grouped.values() for ref in group[:per_group_cap]]
-    output.sort(key=lambda r: r["relevance_score"], reverse=True)
-    return output[:limit]
 
 
 def product_intent(query):
@@ -780,38 +722,22 @@ class CatalogueSearch:
         ]
 
         if identifier(query):
-            exact_query_vector = self.model.encode(
-                [query],
-                normalize_embeddings=True,
-                convert_to_numpy=True,
-                show_progress_bar=False,
-            ).astype("float32")[0]
-            output = []
-            for index in eligible:
-                if not identifier_matches(
-                    query, self.records[index]["is_number"]
-                ):
-                    continue
-                record = copy.deepcopy(self.records[index])
-                record["related_standards"] = rank_and_group_references(
-                    record["related_standards"], exact_query_vector, self.model
-                )
-                record["referenced_by"] = rank_and_group_references(
-                    record["referenced_by"], exact_query_vector, self.model
-                )
-                record.update({
+            return [
+                {
+                    **copy.deepcopy(self.records[index]),
                     "exact_match": True,
                     "similarity": None,
                     "reason": (
                         "Exact identifier match. Technical applicability "
                         "and latest-edition status remain unverified."
                     ),
-                    "why_recommended": why_recommended(query, record, exact=True),
-                })
-                output.append(record)
-                if len(output) >= limit:
-                    break
-            return output
+                    "why_recommended": why_recommended(query, self.records[index], exact=True),
+                }
+                for index in eligible
+                if identifier_matches(
+                    query, self.records[index]["is_number"]
+                )
+            ][:limit]
 
         # Do not silently ignore explicit exclusions.
         if re.search(
@@ -853,12 +779,6 @@ class CatalogueSearch:
         output = []
         for index in order[:limit]:
             record = copy.deepcopy(self.records[index])
-            record["related_standards"] = rank_and_group_references(
-                record["related_standards"], query_vector, self.model
-            )
-            record["referenced_by"] = rank_and_group_references(
-                record["referenced_by"], query_vector, self.model
-            )
             methods = []
             if index in dense_ranks:
                 methods.append("semantic similarity")

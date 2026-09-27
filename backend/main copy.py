@@ -171,7 +171,7 @@ def unified_search(requirement, category):
         "clarification_question": None,
         "suggested_category": None,
         "standards": [],
-        "search_method": "local_catalogue_search",
+        "search_method": "bm25_dense_rrf",
         "message": "",
     }
 
@@ -185,6 +185,7 @@ def unified_search(requirement, category):
 
     # Exact identifiers are preserved without spelling changes.
     if exact_query:
+        result["search_method"] = "exact_identifier"
         corrected = query
     else:
         corrected, corrections = correct_query(query)
@@ -480,103 +481,6 @@ class CatalogueRequest(BaseModel):
 def catalogue_search(request: CatalogueRequest):
     return unified_search(request.requirement, request.category)
 
-
-def opc_grade_43_tender_profile(text, catalogue):
-    """Resolve an explicit OPC 43 / IS 269 tender citation from BIS data."""
-    has_opc = re.search(r"\b(?:ordinary\s+portland\s+cement|OPC)\b", text, re.I)
-    has_grade = re.search(r"\b(?:grade\s*[-:]?\s*43|43\s*grade|OPC\s*(?:Grade|Gr)?\s*[-:]?\s*43)\b", text, re.I)
-    has_code = re.search(r"\bIS\s*[:\-]?\s*269\b", text, re.I)
-    if not (has_opc and has_grade and has_code):
-        return None
-
-    record = next(
-        (dict(row) for row in catalogue.records
-         if identifier_matches("IS 269:2015", row.get("is_number", ""))),
-        {},
-    )
-    record.update({
-        "is_number": "IS 269:2015",
-        "title": "Ordinary Portland Cement - Specification (Sixth Revision)",
-        "scope_summary": (
-            "Covers the manufacture and chemical and physical requirements of "
-            "ordinary Portland cement. The specified grades include OPC 43."
-        ),
-        "scope_verified": True,
-        "latest_version_verified": True,
-        "applicability_verified": True,
-        "why_recommended": (
-            "The tender specifies Ordinary Portland Cement, Grade 43, and cites "
-            "IS 269 (latest revision). BIS identifies IS 269:2015 as the "
-            "Ordinary Portland Cement specification and includes Grade 43."
-        ),
-        "scope_checked_on": "2026-09-26",
-        "scope_source_url": "https://www.bis.gov.in/is-269-2015/?lang=en",
-        "reaffirmation_date": "2020",
-        "amendment_count_raw": 1,
-        "amendments": [{"amendmentLabel": "Amendment No. 1", "amendmentYear": "2023"}],
-        "manual_details": {
-            "reaffirmation_year_as_shown": "2020",
-            "amendment_count_as_shown": 1,
-            "status_as_shown": "Listed in the BIS catalogue; reviewed in 2025",
-            "certification_as_shown": "Mandatory Certification",
-            "standard_type": "Product Specification - Sixth Revision",
-        },
-        "related_standards": [{
-            "is_number": "IS 4031 (Part 6):1988",
-            "title": (
-                "Methods of Physical Tests for Hydraulic Cement: Part 6 "
-                "Determination of Compressive Strength of Hydraulic Cement "
-                "Other than Masonry Cement (First Revision)"
-            ),
-            "relationship": "Relevant to the tender's 3-day, 7-day and 28-day strength test results",
-            "applicability_verified": False,
-        }],
-    })
-    record["revision_check"] = {
-        "edition": "IS 269:2015",
-        "amendment_count": 1,
-        "amendment_count_matches_metadata": True,
-        "latest_version_verified": True,
-        "amendment_documents_reviewed": True,
-        "warnings": [],
-    }
-    record["certification_check"] = {
-        "bis_metadata_label": "Mandatory Certification",
-        "applicability_verified": True,
-        "message": "BIS lists mandatory certification for IS 269:2015.",
-    }
-    return {
-        "category": "construction",
-        "standards": [record],
-        "clarification_question": None,
-        "message": "The tender cites IS 269 for OPC Grade 43. BIS record details are shown below.",
-        "search_method": "explicit_tender_citation",
-    }
-
-
-def split_pdf_requirements(text, max_chars=5000):
-    """Segment PDF text without the manual-entry form's 20-item limit.
-
-    Retain every paragraph, splitting oversized ones at whitespace. The
-    upload endpoint separately enforces the document size and page limits.
-    """
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    text = re.sub(r"(?m)^[ \t]*(?=(?:\d+[.)]|[-•])[ \t]+)", "\n\n", text)
-    items = []
-    for paragraph in re.split(r"\n[ \t]*\n", text):
-        paragraph = paragraph.strip()
-        while len(paragraph) > max_chars:
-            boundaries = list(re.finditer(r"\s+", paragraph[:max_chars + 1]))
-            cut = boundaries[-1].start() if boundaries else max_chars
-            if cut <= 0:
-                cut = max_chars
-            items.append(paragraph[:cut].strip())
-            paragraph = paragraph[cut:].lstrip()
-        if paragraph:
-            items.append(paragraph)
-    return items
-
-
 @app.post("/api/tender/upload")
 def review_tender_pdf(file: UploadFile = File(...)):
     from io import BytesIO
@@ -606,7 +510,7 @@ def review_tender_pdf(file: UploadFile = File(...)):
                 total += len(value)
                 if total > 100000:
                     raise ValueError("Upload a shorter tender section: maximum 100,000 characters.")
-            items = split_pdf_requirements("\n\n".join(pages))
+            items = split_requirements("\n\n".join(pages))
         except ValueError as error:
             raise HTTPException(422, str(error)) from error
         except Exception as error:
@@ -617,70 +521,51 @@ def review_tender_pdf(file: UploadFile = File(...)):
             raise HTTPException(503, "Catalogue unavailable. Check PostgreSQL.")
         output = []
         skipped = 0
-        full_text = "\n\n".join(pages)
-        exact_profile = opc_grade_43_tender_profile(full_text, app.state.catalogue)
-        if exact_profile:
-            output.append({
-                "requirement": "Ordinary Portland Cement, Grade 43",
-                "category": "construction",
-                "citation_checks": [{
-                    "citation": "IS 269 (latest revision)",
-                    "status": "edition_resolved",
-                    "message": "The tender omits the edition year. BIS lists IS 269:2015; confirm this edition against the tender issue date.",
-                    "evidence": [],
-                }],
-                "recommendations": exact_profile,
-            })
-            skipped = max(0, len(items) - 1)
-        else:
-            for item in items:
-                product = recommendation_text(item)
-                citations = audit_citations(item, app.state.citation_snapshot)
-                hints = indicated_categories(product)
-                # Exclude only short heading-like fragments without citations.
-                if not hints and not citations and len(re.findall(r"[A-Za-z]+", product)) < 4:
-                    skipped += 1
-                    continue
-                searches = {
-                    category: unified_search(product, category)
-                    for category in CATEGORY_LABELS
-                    if len(product.strip()) >= 2
+        for item in items:
+            product = recommendation_text(item)
+            citations = audit_citations(item, app.state.citation_snapshot)
+            hints = indicated_categories(product)
+            # Exclude only short heading-like fragments without citations.
+            if not hints and not citations and len(re.findall(r"[A-Za-z]+", product)) < 4:
+                skipped += 1
+                continue
+            searches = {
+                category: unified_search(product, category)
+                for category in CATEGORY_LABELS
+                if len(product.strip()) >= 2
+            }
+            matches = {
+                category: result
+                for category, result in searches.items()
+                if result.get("standards")
+            }
+            if len(matches) == 1:
+                category, result = next(iter(matches.items()))
+            elif len(hints) == 1:
+                category = next(iter(hints))
+                result = searches.get(category) or {
+                    "standards": [], "message": "Add a product description for this citation."
                 }
-                matches = {
-                    category: result
-                    for category, result in searches.items()
-                    if result.get("standards")
+            else:
+                category = "unresolved"
+                result = {
+                    "standards": [],
+                    "message": "No sufficiently supported recommendation for this requirement.",
+                    "clarification_question": (
+                        "This item may describe several products or applications. "
+                        "Clarify it using the Standard Checker."
+                        if len(hints) > 1 or len(matches) > 1
+                        else "Specify the product, material and intended use using the Standard Checker."
+                    ),
                 }
-                if len(matches) == 1:
-                    category, result = next(iter(matches.items()))
-                elif len(hints) == 1:
-                    category = next(iter(hints))
-                    result = searches.get(category) or {
-                        "standards": [], "message": "Add a product description for this citation."
-                    }
-                else:
-                    category = "unresolved"
-                    result = {
-                        "standards": [],
-                        "message": "No sufficiently supported recommendation for this requirement.",
-                        "clarification_question": (
-                            "This item may describe several products or applications. "
-                            "Clarify it using the Standard Checker."
-                            if len(hints) > 1 or len(matches) > 1
-                            else "Specify the product, material and intended use using the Standard Checker."
-                        ),
-                    }
-                output.append({"requirement": item, "category": category,
-                               "citation_checks": citations, "recommendations": result})
+            output.append({"requirement": item, "category": category,
+                           "citation_checks": citations, "recommendations": result})
         if not output:
             raise HTTPException(422, "No product requirements detected. Upload a PDF with product specifications.")
         response = {
             "items": output,
             "source_document": (file.filename or "tender.pdf").replace("\\", "/").split("/")[-1],
             "limitations": (
-                "The tender cites IS 269 as the latest revision without a year. "
-                "BIS currently lists IS 269:2015; confirm the applicable edition against the tender issue date."
-                if exact_profile else
                 "Automatically extracted requirements were searched across Construction, Electrical and Plumbing. "
                 "PDF tables, reading order and embedded images may be incomplete. "
                 "Category routing and recommendations are provisional; technical applicability is unverified. "

@@ -155,33 +155,14 @@ def build_pdf(report):
             refs=[]
             for key,label in [('related_standards','Related'),('referenced_by','Referenced by')]:
                 for ref in s.get(key) or []:
-                    refs.append((
-                        choose(ref.get('is_number'),ref.get('standardNumber')),
-                        choose(ref.get('title'),ref.get('standardName')),
-                        label,
-                        choose(ref.get('reference_group'),'Other related standards'),
-                    ))
+                    refs.append((choose(ref.get('is_number'),ref.get('standardNumber')),choose(ref.get('title'),ref.get('standardName')),label))
             if refs:
-                # Defense-in-depth cap: catalogue_search.py already ranks and caps
-                # these before they reach this report, but this renderer should
-                # never trust that blindly (stale cache, older snapshot, upstream
-                # change). REPORT_REF_CAP is the last line of defense against a
-                # 100+ row table regardless of what the input contains.
-                REPORT_REF_CAP=15
-                total=len(refs)
-                shown=refs[:REPORT_REF_CAP]
-                intro=f'{total} relationships listed by BIS for '+str(s.get('is_number',''))
-                intro+=f'; showing the top {len(shown)} by relevance.' if total>len(shown) else '.'
-                intro+=' Related standards and referenced-by records are listed separately from recommendations.'
-                story += [PageBreak(),p('Related Indian Standards','heading'),p(intro),Spacer(1,10)]
-                counts=[[cell('TOTAL LISTED',total),cell('RELATED',sum(r[2]=='Related' for r in refs)),cell('REFERENCED BY',sum(r[2]=='Referenced by' for r in refs))]]
+                story += [PageBreak(),p('Related Indian Standards','heading'),p(f'{len(refs)} relationships for '+str(s.get('is_number',''))+'. Related standards and referenced-by records are listed separately from recommendations.'),Spacer(1,10)]
+                counts=[[cell('TOTAL LISTED',len(refs)),cell('RELATED',sum(r[2]=='Related' for r in refs)),cell('REFERENCED BY',sum(r[2]=='Referenced by' for r in refs))]]
                 story += [table(counts,[width/3]*3,fills=[((0,0),(-1,-1),pale)]),Spacer(1,13)]
-                rows=[[p('#','label'),p('IS CODE','label'),p('STANDARD / TITLE','label'),p('GROUP','label'),p('RELATIONSHIP','label')]]
-                rows += [[p(n,'small'),p(code,'small'),p(title,'small'),p(group,'small'),p(label,'small')] for n,(code,title,label,group) in enumerate(shown,1)]
-                story += [table(rows,[22,78,width-316,120,96],header=True),Spacer(1,12)]
-                note='BIS-listed relationships only; necessity for this procurement and current editions require review.'
-                if total>len(shown): note=f'Showing {len(shown)} of {total} listed relationships. '+note
-                story.append(p(note,'small'))
+                rows=[[p('#','label'),p('IS CODE','label'),p('STANDARD / TITLE','label'),p('RELATIONSHIP','label')]]
+                rows += [[p(n,'small'),p(code,'small'),p(title,'small'),p(label,'small')] for n,(code,title,label) in enumerate(refs,1)]
+                story += [table(rows,[25,105,width-206,76],header=True),Spacer(1,12),p('BIS-listed relationships only; necessity for this procurement and current editions require review.','small')]
     if report.get('limitations'): story += [Spacer(1,16),p('Review notes','heading'),p(report['limitations'])]
     def frame(canvas,doc):
         canvas.saveState()

@@ -1,119 +1,475 @@
 {
   "entries": [
     {
-      "is_number": "IS 269:2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for ordinary Portland cement, including the OPC 33, 43, 53, 43S and 53S grades.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 1489 (Part 1):2015",
-      "summary": "Covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
-      "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%201489%20:%20Part%201&id=7040",
-      "source_label": "Standard scope — manually transcribed",
-      "source_checked_on": "2026-09-26",
-      "more_details": {
-        "category": "construction",
-        "title": "Portland Pozzolana Cement - Specification: Part 1 fly Ash Based (Fourth Revision)",
-        "scope_text": "This standard (Part 1) covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
+      "is_number": "IS 1786:2008",
+      "summary": "This standard covers the requirements of deformed steel bars and wires for use as reinforcement in concrete.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Construction",
+        "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
+        "scope_text": "This standard covers the requirements of deformed steel bars and wires for use as reinforcement in concrete.",
         "publication_date": null,
-        "reaffirmation_year_as_shown": 2020,
-        "amendment_count_as_shown": 1,
+        "reaffirmation_year_as_shown": 2023,
+        "amendment_count_as_shown": 4,
         "status_as_shown": "Active",
         "replacement_standard": null,
-        "certification_as_shown": "Mandatory"}
+        "certification_as_shown": "Mandatory"
+      }
     },
     {
-      "is_number": "IS 1489 (Part 2):2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for Portland pozzolana cement using calcined clay as the pozzolana.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
+      "is_number": "IS 455:1989",
+      "summary": "This standard covers the manufacture and chemical and physical requirements of Portland slag cement.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Construction",
+        "title": "Portland slag cement - Specification (fifth revision)",
+        "scope_text": "This standard covers the manufacture and chemical and physical requirements of Portland slag cement.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": 2025,
+        "amendment_count_as_shown": 2,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
     },
     {
-      "is_number": "IS 455:2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for Portland slag cement.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
+      "is_number": "IS 383:2016",
+      "summary": "This standard covers the requirements for aggregates, crushed or uncrushed, derived from natural sources, such as river terraces and riverbeds, glacial deposits, rocks, boulers and gravels, and manufactured aggregates produced from other than natural sources, for use in the production of concrete for normal structural purposes inculding mass concrete works.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Construction",
+        "title": "Coarse and Fine Aggregate for Concrete - Specification (Third Revision)",
+        "scope_text": "This standard covers the requirements for aggregates, crushed or uncrushed, derived from natural sources, such as river terraces and riverbeds, glacial deposits, rocks, boulers and gravels, and manufactured aggregates produced from other than natural sources, for use in the production of concrete for normal structural purposes inculding mass concrete works.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": 2025,
+        "amendment_count_as_shown": 2,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Voluntary"
+      }
     },
     {
-      "is_number": "IS 8042:2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for white Portland cement; the BIS overview also describes a whiteness test.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
+      "is_number": "IS 4926:2003",
+      "summary": "Not found",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Construction",
+        "title": "Ready - Mixed Concrete - Code of Practice (Second Revision)",
+        "scope_text": "Not found",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": 2022,
+        "amendment_count_as_shown": "N/A",
+        "status_as_shown": null,
+        "replacement_standard": null,
+        "certification_as_shown": "N/A"
+      }
     },
     {
-      "is_number": "IS 16415:2015",
-      "summary": "Describes production plus chemistry and physical performance criteria for composite cement made with fly ash and granulated slag.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
+      "is_number": "IS 15658:2006",
+      "summary": "Not found",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Construction",
+        "title": "Precast concrete blocks for paving - Specification",
+        "scope_text": "Not found",
+        "publication_date": "N/A",
+        "reaffirmation_year_as_shown": "N/A",
+        "amendment_count_as_shown": "n/a",
+        "status_as_shown": "Withdrawn",
+        "replacement_standard": null,
+        "certification_as_shown": "N/A"
+      }
     },
     {
-      "is_number": "IS 12330:1988",
-      "summary": "Describes production plus chemistry and physical performance criteria for sulphate resisting Portland cement.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 12600:1989",
-      "summary": "Describes production plus chemistry and physical performance criteria for low heat Portland cement.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 16993:2018",
-      "summary": "Describes production plus chemistry and physical performance criteria for microfine ordinary Portland cement and microfine sulphate resisting Portland cement.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 8041:1990",
-      "summary": "Describes production plus chemistry and physical performance criteria for rapid hardening Portland cement.",
-      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
-      "source_label": "BIS cement overview (summary; not the full standard)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 15778:2007",
-      "summary": "Applies to CPVC pipes for hot and cold water distribution; the preview lists requirements, test methods and marking, three dimension ratios and service up to 82°C.",
-      "source_url": "https://www.services.bis.gov.in/tmp/SR15778.pdf",
-      "source_label": "BIS standard preview (scope summary)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 7098 (Part 2):2011",
-      "summary": "Covers XLPE insulated, PVC or polyethylene sheathed cables for single or three phase electric supply at rated voltages from 3.3 kV to 33 kV, including listed cable constructions.",
-      "source_url": "https://www.services.bis.gov.in/tmp/SR7098_2.pdf",
-      "source_label": "BIS standard preview (scope summary)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 7098 (Part 3):1993",
-      "summary": "Covers single-core XLPE insulated, armoured or unarmoured thermoplastic sheathed supply cables for three phase earthed systems at 66 kV to 220 kV.",
-      "source_url": "https://www.services.bis.gov.in/tmp/SR7098_3.pdf",
-      "source_label": "BIS standard preview (scope summary)",
-      "source_checked_on": "2026-09-24"
-    },
-    {
-      "is_number": "IS 4985:2021",
-      "summary": "Product listing identifies unplasticized PVC pipes for potable water supply. See the full standard for size, pressure and installation limits.",
-      "source_url": "https://www.bis.gov.in/wp-content/uploads/2023/10/PM-IS-4985-Oct-2023.pdf",
-      "source_label": "BIS product manual (title-based coverage; full scope unverified)",
-      "source_checked_on": "2026-09-24"
+      "is_number": "IS 1554 (Part 1)",
+      "summary": "This standard (Part 1) covers requirements and tests forarmoured and unarmored single-core, twin-core, three-core andmulti-core PVC insulated and sheathed cables for electric supplyand control purposes.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Specification for PVC insulated (Heavy Duty) electric cables: Part 1 for working voltages up to and including 1 100 V (Third Revision)",
+        "scope_text": "This standard (Part 1) covers requirements and tests forarmoured and unarmored single-core, twin-core, three-core andmulti-core PVC insulated and sheathed cables for electric supplyand control purposes.",
+        "publication_date": 1989,
+        "reaffirmation_year_as_shown": 2020,
+        "amendment_count_as_shown": 5,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
     },
     {
       "is_number": "IS 694:2010",
-      "summary": "Product listing identifies PVC insulated unsheathed and sheathed cables or cords with rigid or flexible conductors. Check the full standard for rated voltage and application limits.",
-      "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
-      "source_label": "BIS product listing (title-based coverage; full scope unverified)",
-      "source_checked_on": "2026-09-24"
+      "summary": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and Including 1 100 V — Fourth Revision",
+        "scope_text": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
+        "publication_date": 2010,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": 4,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 7098 (Part 1):2025",
+      "summary": "This standard (Part 1) covers the requirements for both armored and unarmoured single, twin, three, four and multi core cross-linked polyethylene (XLPE) insulated and thermoplastic sheathed cables for electric supply and control purposes.",
+      "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%207098%20:%20Part%201&id=53004",
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Crosslinked Polyethylene Insulated Thermoplastic Sheathed Cables — Specification Part 1 For Working Voltages up to and Including 1 100 Volts — Second Revision",
+        "scope_text": "his standard (Part 1) covers the requirements for both armored and unarmoured single, twin, three, four and multi core cross-linked polyethylene (XLPE) insulated and thermoplastic sheathed cables for electric supply and control purposes.",
+        "publication_date": "June,2025",
+        "reaffirmation_year_as_shown": "Nov, 2025",
+        "amendment_count_as_shown": 0,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 10322 (Part 5/Sec 3):2012",
+      "summary": "Luminaires for road, street lighting and other public outdoor lighting applications;",
+      "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%2010322%20:%20Part%205%20:%20Sec%203%20-%20(Active)&id=1272",
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Luminaires: Part 5 Particular Requirements, Section 3 Luminaires for Road and Street Lighting",
+        "scope_text": "Luminaires for road, street lighting and other public outdoor lighting applications;",
+        "publication_date": 2012,
+        "reaffirmation_year_as_shown": "Apr, 2024",
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Superseeded by : IS 10322: Part 5: Sec 3: 2026",
+        "replacement_standard": "IS 10322: Part 5: Sec 3: 2026",
+        "certification_as_shown": "N/A"
+      },
+      "spreadsheet_notes": {
+        "Q": "ok"
+      }
+    },
+    {
+      "is_number": "IS 3854:2023",
+      "summary": "This standard applies to manually operated general-purpose switches for alternating currents only, with a rated voltage not exceeding 440 V and a rated current not exceeding 63 A, intended for household and similar fixed-electrical installations either indoors or outdoors.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Switches for Domestic and Similar Purposes — Specification — Third Revision",
+        "scope_text": "This standard applies to manually operated general-purpose switches for alternating currents only, with a rated voltage not exceeding 440 V and a rated current not exceeding 63 A, intended for household and similar fixed-electrical installations either indoors or outdoors.",
+        "publication_date": 2023,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Current revision",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 1293:2019",
+      "summary": "This standard applies to plugs and fixed or portable socket-outlets for ac only, with and without earthing contact, with a rated voltage not exceeding 250 V and a rated current not exceeding 16 A intended for household and similar purposes, either indoors or outdoors.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Plugs and Socket-Outlets for Household and Similar Purposes of Rated Voltage up to and Including 250 V and Rated Current up to and Including 16 A — Specification — Fourth Revision",
+        "scope_text": "This standard applies to plugs and fixed or portable socket-outlets for ac only, with and without earthing contact, with a rated voltage not exceeding 250 V and a rated current not exceeding 16 A intended for household and similar purposes, either indoors or outdoors.",
+        "publication_date": 2019,
+        "reaffirmation_year_as_shown": "N/A",
+        "amendment_count_as_shown": 2,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS/IEC 60898 (Part 1):2015",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Electrical Accessories — Circuit-Breakers for Overcurrent Protection for Household and Similar Installations: Part 1 Circuit-Breakers for AC Operation — First Revision",
+        "scope_text": null,
+        "publication_date": 2015,
+        "reaffirmation_year_as_shown": 2024,
+        "amendment_count_as_shown": 0,
+        "status_as_shown": "active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 12640 (Part 1):2024",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Residual Current Operated Circuit-Breakers without Integral Overcurrent Protection for Household and Similar Uses (RCCBs): Part 1 General Rules — Third Revision",
+        "scope_text": null,
+        "publication_date": 2024,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Current revision",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 374:2019",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Electric Ceiling Fans and Regulators",
+        "scope_text": null,
+        "publication_date": 2019,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 9537 (Part 3):1983",
+      "summary": "This standard (Part 3) specifies requirements and methods of tests for circular rigid non-flame propagating and non-threadable plain conduits of insulating materials.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Specification for Conduits for Electrical Installations Part 3: Rigid Plain Conduits of Insulating Materials",
+        "scope_text": "This standard (Part 3) specifies requirements and methods of tests for circular rigid non-flame propagating and non-threadable plain conduits of insulating materials.",
+        "publication_date": 1983,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 8130:2013",
+      "summary": "Specifies requirements for conductors used in insulated electric cables and flexible cords. It is directly relevant to the conductor component of cables covered by IS 1554 (Part 1). BIS lists IS 8130:2013 among the referred Indian Standards.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Conductors for Insulated Electric Cables and Flexible Cords — Specification (Second Revision)",
+        "scope_text": "Specifies requirements for conductors used in insulated electric cables and flexible cords. It is directly relevant to the conductor component of cables covered by IS 1554 (Part 1). BIS lists IS 8130:2013 among the referred Indian Standards.",
+        "publication_date": 2013,
+        "reaffirmation_year_as_shown": "2024-05-01",
+        "amendment_count_as_shown": "no",
+        "status_as_shown": "active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 4985:2021",
+      "summary": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized PVC Pipes for Potable Water Supplies - Specification (Fourth Revision)",
+        "scope_text": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": null,
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Voluntary"
+      }
+    },
+    {
+      "is_number": "IS 15778:2007",
+      "summary": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Chlorinated Polyvinyl Chloride (CPVC) Pipes for Potable Hot and Cold Water Distribution Supplies — Specification",
+        "scope_text": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
+        "publication_date": 2007,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 4984:2016",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Polyethylene Pipes for Water Supply — Specification (Fifth Revision)",
+        "scope_text": null,
+        "publication_date": 2016,
+        "reaffirmation_year_as_shown": "2026-07-01",
+        "amendment_count_as_shown": 2,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Voluntary"
+      }
+    },
+    {
+      "is_number": "IS 13592:2013",
+      "summary": "This standard covers requirements for plain and socket end unplasticized polyvinyl chloride (PVC-U) pipes with nominal outside diameters 40 mm to 315 mm for use for soil and waste discharge system inside and outside buildings including ventilation, rain water and rain water harvesting applications.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized Polyvinyl Chloride (PVC-U) Pipes for Soil and Waste Discharge System for Inside and Outside Buildings Including Ventilation and Rain Water System — Specification (First Revision)",
+        "scope_text": "This standard covers requirements for plain and socket end unplasticized polyvinyl chloride (PVC-U) pipes with nominal outside diameters 40 mm to 315 mm for use for soil and waste discharge system inside and outside buildings including ventilation, rain water and rain water harvesting applications.",
+        "publication_date": 2013,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 14735:1999",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized PVC Fittings for Soil and Waste Discharge Systems Inside and Outside Buildings Including Ventilation and Rain Water System",
+        "scope_text": null,
+        "publication_date": 1999,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 12701:1996",
+      "summary": "This standard covers materials, dimensions, construction, workmanship, performance, inspection, and testing of rotational moulded polyethylene water storage tanks for service temperatures of +1°C to +50°C. It applies to tanks supported on a uniform flat base and subjected to their own hydrostatic water pressure. It does not cover underground, mobile, or horizontal cylindrical tanks.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Rotational Moulded Polyethylene Water Storage Tanks — Specification (First Revision)",
+        "scope_text": "This standard covers materials, dimensions, construction, workmanship, performance, inspection, and testing of rotational moulded polyethylene water storage tanks for service temperatures of +1°C to +50°C. It applies to tanks supported on a uniform flat base and subjected to their own hydrostatic water pressure. It does not cover underground, mobile, or horizontal cylindrical tanks.",
+        "publication_date": 1996,
+        "reaffirmation_year_as_shown": 2022,
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 15328:2003",
+      "summary": "This standard covers PVC-U pipes of 110–630 mm nominal diameter for underground, non-pressure gravity drainage and sewer systems. It applies to pipes used for domestic wastewater, stormwater, and industrial effluent, considering chemical, temperature, and suspended-matter resistance for industrial use.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized Non-Pressure Polyvinyl Chloride (PVC-U) Pipes for Use in Underground Drainage and Sewerage Systems — Specification",
+        "scope_text": "This standard covers PVC-U pipes of 110–630 mm nominal diameter for underground, non-pressure gravity drainage and sewer systems. It applies to pipes used for domestic wastewater, stormwater, and industrial effluent, considering chemical, temperature, and suspended-matter resistance for industrial use.",
+        "publication_date": 2003,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "7*",
+        "status_as_shown": "Active / Revision activity",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 15801:2008",
+      "summary": null,
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Polypropylene-Random Copolymer Pipes for Hot and Cold Water Supplies — Specification",
+        "scope_text": null,
+        "publication_date": 2008,
+        "reaffirmation_year_as_shown": "2024-08-01",
+        "amendment_count_as_shown": 3,
+        "status_as_shown": "active",
+        "replacement_standard": null,
+        "certification_as_shown": "voluntary"
+      }
+    },
+    {
+      "is_number": "IS 12818:2010",
+      "summary": "This standard covers the requirements of ribbed screen, plain screen and plain casing pipes of nominal diameter 35 mm to 400 mm, produced from unplasticized polyvinyl chloride for bore/tubewells for water supply. NOTE — It is the responsibility of the purchaser or the specifier to make the appropriate selections taking into account their particular requirements and any relevant national guidelines or regulations and installation practices or codes.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized Polyvinyl Chloride (PVC-U) Screen and Casing Pipes for Bore/Tubewells — Specification (Second Revision)",
+        "scope_text": "This standard covers the requirements of ribbed screen, plain screen and plain casing pipes of nominal diameter 35 mm to 400 mm, produced from unplasticized polyvinyl chloride for bore/tubewells for water supply. NOTE — It is the responsibility of the purchaser or the specifier to make the appropriate selections taking into account their particular requirements and any relevant national guidelines or regulations and installation practices or codes.",
+        "publication_date": 2010,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
+    },
+    {
+      "is_number": "IS 1703:2000",
+      "summary": "This standard lays down requirements regarding sizes, materials, manufacture and workmanship, and testing of float valves (horizontal plunger type) for water supply purposes.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Water Fittings — Copper Alloy Float Valves (Horizontal Plunger Type) — Specification (Fourth Revision)",
+        "scope_text": "This standard lays down requirements regarding sizes, materials, manufacture and workmanship, and testing of float valves (horizontal plunger type) for water supply purposes.",
+        "publication_date": 2000,
+        "reaffirmation_year_as_shown": "2026-03-01",
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      }
     }
   ]
 }
