@@ -4,7 +4,7 @@
 
 **Describe what you're buying. Get the Indian Standards that apply, and the reason why.**
 
-Smart India Hackathon 2026 &nbsp;·&nbsp; Problem Statement 108
+Smart India Hackathon 2026 &nbsp;·&nbsp; 
 
 [The problem](#the-problem) ·
 [What it does](#what-it-does) ·
