@@ -1,133 +1,166 @@
-# 🇮🇳 Velocia
+<div align="center">
 
-### AI-Powered Recommendation Engine for Identifying Applicable Indian Standards
+# Velocia
 
-> **Smart India Hackathon 2026 — Problem Statement #108**
+**Describe what you're buying. Get the Indian Standards that apply, and the reason why.**
 
-Velocia is an intelligent recommendation engine designed to identify **applicable Indian Standards (IS)** from procurement specifications, product descriptions, technical requirements, and tender documents.
+Smart India Hackathon 2026 &nbsp;·&nbsp; Problem Statement 108
 
-It combines **semantic search, lexical retrieval, product/category intelligence, applicability rules, and standard metadata** to retrieve and rank potentially relevant Indian Standards.
+[The problem](#the-problem) ·
+[What it does](#what-it-does) ·
+[How it works](#how-it-works) ·
+[Run it locally](#run-it-locally) ·
+[What's next](#whats-next)
 
----
+</div>
 
-## 🎯 Problem Statement
+<br>
 
-| Challenge                        | Traditional Approach     | Velocia Approach                   |
-| -------------------------------- | ------------------------ | ---------------------------------- |
-| Different terminology            | Exact keyword matching   | Semantic similarity                |
-| Typographical errors             | Poor retrieval           | Typo-tolerant processing           |
-| Large number of standards        | Manual searching         | Automated ranking                  |
-| Similar but irrelevant standards | Keyword overlap          | Applicability & exclusion rules    |
-| Product-specific requirements    | Generic search           | Product/category intelligence      |
-| Tender PDFs                      | Manual document reading  | Tender requirement extraction      |
-| Understanding recommendations    | Black-box search results | Explainable recommendation signals |
-| Outdated standards               | Difficult to identify    | Status & metadata filtering        |
+<!-- Add a demo GIF or a hero screenshot here. It's the first thing people look at. -->
+<!-- ![Velocia demo](docs/demo.gif) -->
 
----
+## The problem
 
-## 🚀 Key Features
+Every product bought through public procurement has to meet an Indian Standard. Finding the right one is harder than it sounds.
 
-| Feature                    | Description                                                                           |
-| -------------------------- | ------------------------------------------------------------------------------------- |
-| 🔎 Intelligent Search      | Search Indian Standards using natural-language product and specification descriptions |
-| 🧠 Semantic Retrieval      | Finds standards based on contextual meaning rather than only exact keywords           |
-| 🔤 BM25 Retrieval          | Provides strong lexical matching for IS numbers, titles, and technical terminology    |
-| ✍️ Typo Handling           | Handles common spelling variations and input errors                                   |
-| 🏷️ Product Intelligence   | Uses product, material, category, and application information                         |
-| 🚫 Applicability Filtering | Removes standards that are clearly irrelevant to the given requirement                |
-| 📄 Tender PDF Support      | Designed to analyze procurement/tender documents and extract relevant requirements    |
-| 📚 Standard Metadata       | Uses available withdrawal, supersession, duplicate and review information             |
-| 💡 Explainable Results     | Shows the signals contributing to an IS recommendation                                |
-| 📊 Ranked Recommendations  | Produces an ordered list of potentially applicable standards                          |
+There are thousands of IS codes. A tender says "ordinary portland cement, 43 grade" while the standard is titled something slightly different. Someone types "sttel" instead of "steel". Two standards share half their vocabulary but cover different products. A code that looked right turns out to have been withdrawn and replaced years ago.
 
----
+Today this is solved by experience and a lot of manual searching. Velocia is our attempt to make it fast, and to make the answer explain itself.
 
-# 🧠 How Velocia Works
+## What it does
 
-Velocia uses a **multi-stage retrieval and recommendation pipeline**.
+You give Velocia a product description, a technical specification, or a tender document. It returns a ranked list of Indian Standards that are likely to apply, and for each one it shows which signals put it there.
 
-| Stage | Component           | Purpose                                                                |
-| ----- | ------------------- | ---------------------------------------------------------------------- |
-| 1     | User Input          | Accept product/specification query or tender document                  |
-| 2     | Preprocessing       | Normalize and clean the input                                          |
-| 3     | Query Understanding | Identify important products, materials, categories and technical terms |
-| 4     | Exact Matching      | Detect direct IS-number matches                                        |
-| 5     | BM25 Retrieval      | Retrieve standards with strong lexical similarity                      |
-| 6     | Semantic Retrieval  | Retrieve standards using embedding similarity                          |
-| 7     | Candidate Filtering | Apply product, category and applicability rules                        |
-| 8     | Ranking             | Combine multiple relevance signals                                     |
-| 9     | Validation          | Remove obvious mismatches and problematic records                      |
-| 10    | Explanation         | Present why each standard was recommended                              |
+- **Understands meaning, not just keywords.** "Cement for foundation work" can find a standard that never uses the word "foundation".
+- **Still respects exact terms.** IS numbers, titles and technical vocabulary are matched with BM25, because embeddings alone are bad at precise identifiers.
+- **Copes with messy input.** Typos and spelling variations don't send the search off course.
+- **Knows what the product is.** Product, material, category and application are extracted from the query and checked against each candidate.
+- **Filters out near-misses.** Applicability rules remove standards that look similar but clearly don't fit.
+- **Reads tender documents.** Requirements are pulled out of procurement PDFs so nobody has to read forty pages to find three lines.
+- **Checks the record.** Withdrawn, superseded, duplicate and under-review standards are flagged using the standard's metadata.
+- **Shows its work.** Every recommendation comes with the reasons behind it.
 
----
+## Why it explains itself
 
-# 🔬 Recommendation Signals
+A list of IS codes with no reasoning is hard to trust, especially in procurement where someone has to sign off on the choice. So each result carries the evidence for it:
 
-Velocia does not depend on a single similarity score.
+| Signal | What it tells you |
+| --- | --- |
+| Exact IS match | The input already named this standard |
+| Keyword relevance and BM25 | How closely the wording lines up |
+| Semantic similarity | How close the meaning is |
+| Product, material, category, application | Whether the standard is actually about this thing |
+| Rule validation | Whether domain applicability conditions hold |
+| Metadata validation | Whether the standard is still in force |
 
-| Signal              | What It Evaluates                                                  |
-| ------------------- | ------------------------------------------------------------------ |
-| Exact IS Match      | Whether the input directly contains an IS identifier               |
-| Keyword Relevance   | Overlap between specification terminology and standard information |
-| BM25 Score          | Lexical relevance between query and standard                       |
-| Semantic Similarity | Contextual similarity between query and standard                   |
-| Product Match       | Whether the standard applies to the identified product             |
-| Material Match      | Whether the material mentioned is relevant                         |
-| Category Match      | Whether the standard belongs to the relevant product/category      |
-| Application Match   | Whether the intended application aligns                            |
-| Rule Validation     | Whether domain-specific applicability conditions are satisfied     |
-| Metadata Validation | Standard status and database consistency checks                    |
+No single score decides. A standard that scores well on wording but fails the product check gets pushed down, and you can see why.
 
----
+<!-- Replace with a real screenshot of a result card. -->
+<!-- ![Result with reasoning](docs/result.png) -->
 
-# 💡 Explainable Recommendations
+## How it works
 
-One of Velocia's core objectives is to answer not only:
+Velocia is a multi-stage pipeline. Each stage removes noise so the next one has less to get wrong.
 
-> **"Which IS code?"**
-
-but also:
-
-> **"Why was this IS code recommended?"**
-
-Example:
-
-| Recommendation Signal | Result    |
-| --------------------- | --------- |
-| Product Match         | ✓ Matched |
-| Material Match        | ✓ Matched |
-| Application Match     | ✓ Matched |
-| Semantic Similarity   | ✓ High    |
-| Keyword Relevance     | ✓ Strong  |
-| Category Match        | ✓ Matched |
-| Applicability Rules   | ✓ Passed  |
-| Standard Metadata     | ✓ Valid   |
-
-This provides procurement users with **traceable reasoning signals** instead of presenting a recommendation without context.
-
----
-
-# 🏗️ System Architecture
-
-```text
-                     ┌───────────────────┐
-                     │       USER        │
-                     └─────────┬─────────┘
-                               │
-                ┌──────────────▼──────────────┐
-                │        INPUT LAYER          │
-                │                             │
-                │ Query / Specification / PDF │
-                └──────────────┬──────────────┘
-                               │
-                ┌──────────────▼──────────────┐
-                │     QUERY PROCESSING        │
-                │                             │
-                │ Normalization               │
-                │ Typo Handling               │
-                │ Product / Category Detection│
-                └──────────────┬──────────────┘
-                               │
-             ┌─────────────────▼─────────────────┐
-             │        CANDIDAT
+```mermaid
+flowchart LR
+    A[Query, spec or tender PDF] --> B[Clean and normalise]
+    B --> C[Understand the query<br/>product, material, category]
+    C --> D[Exact IS match]
+    C --> E[BM25 retrieval]
+    C --> F[Semantic retrieval]
+    D --> G[Merge candidates]
+    E --> G
+    F --> G
+    G --> H[Apply applicability rules]
+    H --> I[Rank on combined signals]
+    I --> J[Validate against metadata]
+    J --> K[Ranked standards<br/>with explanations]
 ```
+
+1. **Input.** A plain-language query, a specification, or an uploaded tender.
+2. **Preprocessing.** Text is cleaned and normalised, and common typos are handled.
+3. **Query understanding.** Products, materials, categories and technical terms are identified.
+4. **Exact matching.** If the user already typed an IS number, we catch it first.
+5. **BM25 retrieval.** Strong on titles, codes and specific terminology.
+6. **Semantic retrieval.** Embedding similarity, strong on paraphrase and intent.
+7. **Candidate filtering.** Product, category and applicability rules cut the list down.
+8. **Ranking.** The signals above are combined into one ordering.
+9. **Validation.** Obvious mismatches and problem records are removed or flagged.
+10. **Explanation.** Each result is returned with the reasons behind it.
+
+### Why two retrievers
+
+Keyword search and semantic search fail in opposite ways. BM25 is precise about "IS 269" but blind to synonyms. Embeddings understand "cement for a foundation" but can blur one standard into its neighbour. Running both and merging the results gave us better coverage than either alone.
+
+## Project structure
+
+```
+Manakya/
+├── backend/     # retrieval, ranking and rules
+├── frontend/    # the interface
+└── README.md
+```
+
+## Run it locally
+
+<!-- Fill in the exact commands below from your own setup, then delete this comment. -->
+
+You'll need the tools for both halves of the project. Fill in versions here once they're pinned.
+
+```bash
+git clone https://github.com/rohitkumawat-dev/Manakya.git
+cd Manakya
+```
+
+**Backend**
+
+```bash
+cd backend
+# install dependencies
+# build the search index (one-time)
+# start the server
+```
+
+**Frontend**
+
+```bash
+cd frontend
+# install dependencies
+# start the dev server
+```
+
+Then open the local address the frontend prints and try a query such as:
+
+> ordinary portland cement, 43 grade, for general construction
+
+## Where the data comes from
+
+The standards data is built from publicly available information about Indian Standards: IS number, title, scope, status and amendment details. The quality of a recommendation depends directly on how complete this data is, so coverage grows as we add more standards.
+
+## Honest limits
+
+- Velocia is decision support. It narrows a large search space and shows its reasoning, but a person should confirm the final choice, especially where certification or compliance is involved.
+- Results are only as good as the standards data loaded behind them.
+- Applicability rules are written per domain, so a newly added domain starts with weaker rules until they're written.
+
+## What's next
+
+- Multilingual queries, so a procurement officer can search in the language they actually use
+- Allied standards alongside each result: test methods, terminology, safety and related product standards
+- Pointers to mandatory certification requirements where they apply
+- Automated refresh of the standards data, with a visible "last updated" date
+
+## Built by
+
+Made for Smart India Hackathon 2026 by [@rohitkumawat-dev](https://github.com/rohitkumawat-dev) and team.
+
+<!-- Add teammates' names and GitHub links here. -->
+
+<br>
+
+<div align="center">
+
+If Velocia saved you a search, a ⭐ on the repo means a lot to us.
+
+</div>
