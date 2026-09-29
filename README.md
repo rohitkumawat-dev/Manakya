@@ -1,6 +1,6 @@
-<div align="center">
+<div align="left">
 
-# Velocia
+# Manakya
 
 **Describe what you're buying. Get the Indian Standards that apply, and the reason why.**
 
