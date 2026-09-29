@@ -1,6 +1,179 @@
 {
   "entries": [
     {
+      "is_number": "IS 269:2015",
+      "summary": "Describes production plus chemistry and physical performance criteria for ordinary Portland cement, including the OPC 33, 43, 53, 43S and 53S grades.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 1489 (Part 1):2015",
+      "summary": "Covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
+      "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%201489%20:%20Part%201&id=7040",
+      "source_label": "Standard scope — manually transcribed",
+      "source_checked_on": "2026-09-26",
+      "manual_details": {
+        "category": "construction",
+        "title": "Portland Pozzolana Cement - Specification: Part 1 fly Ash Based (Fourth Revision)",
+        "scope_text": "This standard (Part 1) covers the manufacture and chemical and physical requirements of Portland pozzolana cement using fly ash as pozzolana.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": 2020,
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      }
+    },
+    {
+      "is_number": "IS 1489 (Part 2):2015",
+      "summary": "Describes production plus chemistry and physical performance criteria for Portland pozzolana cement using calcined clay as the pozzolana.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 455:2015",
+      "summary": "Describes production plus chemistry and physical performance criteria for Portland slag cement.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 8042:2015",
+      "summary": "Describes production plus chemistry and physical performance criteria for white Portland cement; the BIS overview also describes a whiteness test.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 16415:2015",
+      "summary": "Describes production plus chemistry and physical performance criteria for composite cement made with fly ash and granulated slag.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 12330:1988",
+      "summary": "Describes production plus chemistry and physical performance criteria for sulphate resisting Portland cement.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 12600:1989",
+      "summary": "Describes production plus chemistry and physical performance criteria for low heat Portland cement.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 16993:2018",
+      "summary": "Describes production plus chemistry and physical performance criteria for microfine ordinary Portland cement and microfine sulphate resisting Portland cement.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 8041:1990",
+      "summary": "Describes production plus chemistry and physical performance criteria for rapid hardening Portland cement.",
+      "source_url": "https://www.services.bis.gov.in/tmp/compendium_2025-06-02-03-45-10.pdf",
+      "source_label": "BIS cement overview (summary; not the full standard)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 15778:2007",
+      "summary": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Chlorinated Polyvinyl Chloride (CPVC) Pipes for Potable Hot and Cold Water Distribution Supplies — Specification",
+        "scope_text": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
+        "publication_date": 2007,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": "na",
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "na"
+      },
+      "additional_sources": [
+        {
+          "summary": "Applies to CPVC pipes for hot and cold water distribution; the preview lists requirements, test methods and marking, three dimension ratios and service up to 82°C.",
+          "source_url": "https://standards.bis.gov.in/website/standard-details?encryptedId=eyJpdiI6IlJvT1ZuQVN1eWhiaU5mR2xJaWFJOXc9PSIsInZhbHVlIjoibThlbFR2UzZFVEgzR0U2RjQ1eXNlZz09IiwibWFjIjoiNmFkMTQ2NDZmN2VmZjBmNTFkNjRlNjAwMjc0NDI4YzVlNzFkMjQ5ZGIzMWQyZjRhY2E0ZDQzYmViNzcyMGYxYyIsInRhZyI6IiJ9&standardNumber=IS%2015778:2007",
+          "source_label": "BIS standard preview (scope summary)",
+          "source_checked_on": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "is_number": "IS 7098 (Part 2):2011",
+      "summary": "Covers XLPE insulated, PVC or polyethylene sheathed cables for single or three phase electric supply at rated voltages from 3.3 kV to 33 kV, including listed cable constructions.",
+      "source_url": "https://www.services.bis.gov.in/tmp/SR7098_2.pdf",
+      "source_label": "BIS standard preview (scope summary)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 7098 (Part 3):1993",
+      "summary": "Covers single-core XLPE insulated, armoured or unarmoured thermoplastic sheathed supply cables for three phase earthed systems at 66 kV to 220 kV.",
+      "source_url": "https://www.services.bis.gov.in/tmp/SR7098_3.pdf",
+      "source_label": "BIS standard preview (scope summary)",
+      "source_checked_on": "2026-09-24"
+    },
+    {
+      "is_number": "IS 4985:2021",
+      "summary": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Plumbing",
+        "title": "Unplasticized PVC Pipes for Potable Water Supplies - Specification (Fourth Revision)",
+        "scope_text": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
+        "publication_date": null,
+        "reaffirmation_year_as_shown": null,
+        "amendment_count_as_shown": 1,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Voluntary"
+      },
+      "additional_sources": [
+        {
+          "summary": "Product listing identifies unplasticized PVC pipes for potable water supply. See the full standard for size, pressure and installation limits.",
+          "source_url": "https://standards.bis.gov.in/website/standard-details?encryptedId=eyJpdiI6InBOQnY5M2hKTHN6ODBRZzZWODdpNGc9PSIsInZhbHVlIjoiYzR2VDdtazBUenhZRE50VWVzZVNWUT09IiwibWFjIjoiNDdkMDIzMWZiNTljZmYwZmNkZjQ0ZTU5ZjEwYTM5NDUxNTM0M2FhYTYyNjQ1NTFiNjE1NWI1ZjFlYWYyMzEwOCIsInRhZyI6IiJ9&standardNumber=IS%204985:2021",
+          "source_label": "BIS product manual (title-based coverage; full scope unverified)",
+          "source_checked_on": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "is_number": "IS 694:2010",
+      "summary": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and Including 1 100 V — Fourth Revision",
+        "scope_text": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
+        "publication_date": 2010,
+        "reaffirmation_year_as_shown": "na",
+        "amendment_count_as_shown": 4,
+        "status_as_shown": "Active",
+        "replacement_standard": null,
+        "certification_as_shown": "Mandatory"
+      },
+      "additional_sources": [
+        {
+          "summary": "Product listing identifies PVC insulated unsheathed and sheathed cables or cords with rigid or flexible conductors. Check the full standard for rated voltage and application limits.",
+          "source_url": "https://www.bis.gov.in/draft-test-request-and-test-report-formats/1st-team-reviewed-top-mand-iss-electrical/?lang=en",
+          "source_label": "BIS product listing (title-based coverage; full scope unverified)",
+          "source_checked_on": "2026-09-24"
+        }
+      ]
+    },
+    {
       "is_number": "IS 1786:2008",
       "summary": "This standard covers the requirements of deformed steel bars and wires for use as reinforcement in concrete.",
       "source_url": null,
@@ -91,7 +264,7 @@
       }
     },
     {
-      "is_number": "IS 1554 (Part 1)",
+      "is_number": "IS 1554 (Part 1):1988",
       "summary": "This standard (Part 1) covers requirements and tests forarmoured and unarmored single-core, twin-core, three-core andmulti-core PVC insulated and sheathed cables for electric supplyand control purposes.",
       "source_url": null,
       "source_label": null,
@@ -100,7 +273,7 @@
         "category": "Electrical",
         "title": "Specification for PVC insulated (Heavy Duty) electric cables: Part 1 for working voltages up to and including 1 100 V (Third Revision)",
         "scope_text": "This standard (Part 1) covers requirements and tests forarmoured and unarmored single-core, twin-core, three-core andmulti-core PVC insulated and sheathed cables for electric supplyand control purposes.",
-        "publication_date": 1989,
+        "publication_date": null,
         "reaffirmation_year_as_shown": 2020,
         "amendment_count_as_shown": 5,
         "status_as_shown": "Active",
@@ -109,26 +282,8 @@
       }
     },
     {
-      "is_number": "IS 694:2010",
-      "summary": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
-      "source_url": null,
-      "source_label": null,
-      "source_checked_on": null,
-      "manual_details": {
-        "category": "Electrical",
-        "title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and Including 1 100 V — Fourth Revision",
-        "scope_text": "This standard covers general requirements of single and multicore cables/cords with rigid as well as flexible annealed bare/tinned copper and aluminium conductor, insulated and sheathed (if any) with polyvinyl chloride (PVC) for rated voltages up to and including 450/750 V ac, 50 Hz used in electric power and lighting including cables for outdoor and low temperature use.",
-        "publication_date": 2010,
-        "reaffirmation_year_as_shown": "na",
-        "amendment_count_as_shown": 4,
-        "status_as_shown": "Active",
-        "replacement_standard": null,
-        "certification_as_shown": "Mandatory"
-      }
-    },
-    {
       "is_number": "IS 7098 (Part 1):2025",
-      "summary": "This standard (Part 1) covers the requirements for both armored and unarmoured single, twin, three, four and multi core cross-linked polyethylene (XLPE) insulated and thermoplastic sheathed cables for electric supply and control purposes.",
+      "summary": "his standard (Part 1) covers the requirements for both armored and unarmoured single, twin, three, four and multi core cross-linked polyethylene (XLPE) insulated and thermoplastic sheathed cables for electric supply and control purposes.",
       "source_url": "https://standardsbis.bsbedge.com/BIS_SearchStandard.aspx?Standard_Number=IS%207098%20:%20Part%201&id=53004",
       "source_label": null,
       "source_checked_on": null,
@@ -220,6 +375,24 @@
       }
     },
     {
+      "is_number": "IS/IEC 60898 (Part 2):2016",
+      "summary": "The standard applies to bi-directional circuit-breakers rated up to 125 A and 10,000 A short-circuit capacity for household and similar installations",
+      "source_url": null,
+      "source_label": null,
+      "source_checked_on": null,
+      "manual_details": {
+        "category": "Electrical",
+        "title": "Electrical accessories Circuit-breakers for overcurrent protection for household and similar installations Part 2: Circuit-breakers for AC and DC operation",
+        "scope_text": "The standard applies to bi-directional circuit-breakers rated up to 125 A and 10,000 A short-circuit capacity for household and similar installations",
+        "publication_date": 2016,
+        "reaffirmation_year_as_shown": 2023,
+        "amendment_count_as_shown": 0,
+        "status_as_shown": "active",
+        "replacement_standard": null,
+        "certification_as_shown": "N/A"
+      }
+    },  
+    {
       "is_number": "IS 12640 (Part 1):2024",
       "summary": null,
       "source_url": null,
@@ -289,42 +462,6 @@
         "status_as_shown": "active",
         "replacement_standard": null,
         "certification_as_shown": "Mandatory"
-      }
-    },
-    {
-      "is_number": "IS 4985:2021",
-      "summary": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
-      "source_url": null,
-      "source_label": null,
-      "source_checked_on": null,
-      "manual_details": {
-        "category": "Plumbing",
-        "title": "Unplasticized PVC Pipes for Potable Water Supplies - Specification (Fourth Revision)",
-        "scope_text": "This standard covers requirements for plain as well as socket-ended pipes, including those for use with elastomeric sealing rings, for potable water supplies.",
-        "publication_date": null,
-        "reaffirmation_year_as_shown": null,
-        "amendment_count_as_shown": 1,
-        "status_as_shown": "Active",
-        "replacement_standard": null,
-        "certification_as_shown": "Voluntary"
-      }
-    },
-    {
-      "is_number": "IS 15778:2007",
-      "summary": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
-      "source_url": null,
-      "source_label": null,
-      "source_checked_on": null,
-      "manual_details": {
-        "category": "Plumbing",
-        "title": "Chlorinated Polyvinyl Chloride (CPVC) Pipes for Potable Hot and Cold Water Distribution Supplies — Specification",
-        "scope_text": "This standard specifies requirements, test methods and methods of marking for chlorinated polyvinyl chloride plastic pipes for hot and cold water distribution supplies, made in three standard dimension ratios and intended for water service up to and including 82°C.",
-        "publication_date": 2007,
-        "reaffirmation_year_as_shown": "na",
-        "amendment_count_as_shown": "na",
-        "status_as_shown": "Active",
-        "replacement_standard": null,
-        "certification_as_shown": "na"
       }
     },
     {

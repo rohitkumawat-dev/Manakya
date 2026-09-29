@@ -30,7 +30,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Velocia API",
+    title="Manakya API",
     version="0.3.1",
     lifespan=lifespan,
 )
@@ -55,14 +55,14 @@ class AnalyzeRequest(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "Velocia backend is running"}
+    return {"message": "Manakya backend is running"}
 
 
 @app.get("/api/health")
 def health_check():
     return {
         "status": "ok",
-        "project": "Velocia",
+        "project": "Manakya",
         "search": "semantic_with_exact_identifier_filter",
     }
 
@@ -465,7 +465,7 @@ def download_report(report_id: str):
         content=pdf,
         media_type="application/pdf",
         headers={
-            "Content-Disposition": 'attachment; filename="Velocia-tender-report.pdf"',
+            "Content-Disposition": 'attachment; filename="Manakya-tender-report.pdf"',
             "Cache-Control": "no-store",
         },
     )

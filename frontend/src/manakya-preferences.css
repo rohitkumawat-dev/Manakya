@@ -1,0 +1,39 @@
+/* Local interface preferences. No external translation service. */
+:root{color-scheme:light}
+.mk-preferences{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:12px}
+.mk-preferences button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:9px 12px;border:1px solid #16131c;border-radius:12px;background:#f5edfc;color:#17131e;font:inherit;font-size:13px;font-weight:600;cursor:pointer}
+.mk-preferences button:hover{background:#e8d7f8}
+.mk-preferences button:focus-visible{outline:3px solid #9465cf;outline-offset:3px}
+.mk-theme{min-width:42px}
+.sg-nav-wrap{flex-wrap:wrap;row-gap:12px}
+html[lang="hi"] .sg-app{font-family:"Nirmala UI","Noto Sans Devanagari","Mangal",sans-serif}
+html[lang="hi"] .sg-app h1{line-height:1.3;letter-spacing:-.025em}
+html[lang="hi"] .sg-home{height:auto;min-height:calc(100svh - 90px)}
+html[lang="hi"] .sg-action-card{height:auto;min-height:190px}
+html[lang="hi"] .sg-kicker,html[lang="hi"] .sg-eyebrow{letter-spacing:.02em}
+
+:root,html,body{color-scheme:light}
+.mk-preferences{margin-left:12px}
+@media(max-width:1100px){.sg-nav-wrap{justify-content:space-between}.sg-nav-wrap nav{order:3;flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}.mk-preferences{margin-left:auto}}
+@media(max-width:600px){.mk-preferences button{padding:8px;min-height:38px}.mk-language>span:first-child{display:none}.sg-header .sg-brand .manakya-wordmark{width:145px}.sg-nav-wrap nav a{font-size:12px}.sg-nav-wrap{gap:8px}}
+/* Reference-inspired catalogue strip: one total, three equally aligned categories. */
+.sg-app .mk-catalogue-strip{display:grid;grid-template-columns:minmax(250px,1.12fr) minmax(0,3fr);align-items:center;gap:0;width:100%;box-sizing:border-box;min-width:0;margin:36px 0 8px;padding:24px 26px;border:1px solid #dfd1ef!important;border-radius:25px;background:linear-gradient(115deg,#f6f0fc,#faf7fd);box-shadow:0 5px 20px #65408406;text-align:left}
+.mk-catalogue-total{display:flex;align-items:center;gap:18px;min-width:0;padding-right:24px;border-right:1px solid #dbcaed!important}
+.mk-catalogue-total>div{display:flex;flex-direction:column;gap:5px;min-width:0}
+.sg-app .mk-catalogue-caption{font-size:15px;font-weight:500;line-height:1.4;color:#756587!important;letter-spacing:0}
+.sg-app .mk-catalogue-total strong{font-size:clamp(23px,2.2vw,32px);line-height:1.15;letter-spacing:-.035em;font-weight:750;color:#21132e!important;white-space:nowrap}
+.mk-catalogue-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch;min-width:0;padding-left:22px;gap:8px}
+.sg-app .mk-catalogue-link{display:flex;align-items:center;gap:14px;min-width:0;min-height:72px;padding:8px 12px;border-radius:17px;text-decoration:none;color:#21132e!important;transition:background .18s,transform .18s}
+.sg-app .mk-catalogue-link:hover{background:#eee3f9;transform:translateY(-2px)}
+.mk-catalogue-link:focus-visible{outline:2px solid #7145b5;outline-offset:3px}
+.sg-app .mk-category-icon{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;flex-shrink:0;background:#e9dcfa;color:#66429a!important}
+.sg-app .mk-search-icon{width:64px;height:64px;background:#e2d0f5;color:#593686!important}
+.sg-app .mk-category-electrical .mk-category-icon{background:#f0e5fc;color:#7953a5!important}
+.sg-app .mk-category-plumbing .mk-category-icon{background:#e9e3f6;color:#634d8b!important}
+.sg-app .mk-category-icon svg{color:inherit!important}
+.sg-app .mk-category-name{font-size:16px;font-weight:650;line-height:1.4;overflow-wrap:anywhere;color:#21132e!important}
+.sg-app .mk-category-arrow{margin-left:auto;display:flex;color:#9c7bbd!important;flex-shrink:0}
+.sg-app .mk-category-arrow svg{color:inherit!important}
+@media(max-width:1200px){.sg-app .mk-catalogue-strip{grid-template-columns:1fr;padding:22px}.mk-catalogue-total{border-right:0!important;border-bottom:1px solid #dbcaed!important;padding:0 0 18px;margin-bottom:12px}.mk-catalogue-links{padding-left:0}}
+@media(max-width:650px){.sg-app .mk-catalogue-strip{margin-top:25px;padding:18px;border-radius:20px}.mk-catalogue-links{grid-template-columns:1fr;gap:2px}.sg-app .mk-catalogue-link{padding:10px 7px;min-height:65px}.sg-app .mk-category-icon{height:48px;width:48px}.sg-app .mk-search-icon{height:56px;width:56px}.sg-app .mk-catalogue-total strong{font-size:27px}}
+@media(prefers-reduced-motion:reduce){.sg-app .mk-catalogue-link{transition:none}.sg-app .mk-catalogue-link:hover{transform:none}}

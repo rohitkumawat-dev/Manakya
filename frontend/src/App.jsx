@@ -1,5 +1,11 @@
-import { useEffect, useRef, useState } from "react";
+/** @jsxRuntime classic */
+/** @jsx localizedElement */
+/** @jsxFrag Fragment */
+import { Fragment, useEffect, useRef, useState } from "react";
 import "./index.css";
+import "./manakya-brand.css";
+import "./manakya-preferences.css";
+import { LanguageContext, localizedElement, translate } from "./manakya-i18n.jsx";
 
 const API = (import.meta.env?.VITE_API_BASE_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 const BIS = "https://standards.bis.gov.in/website/know-your-standards";
@@ -25,6 +31,8 @@ const EXAMPLES = {
 
 function Icon({ name = "arrow", size = 20, ...props }) {
   const paths = {
+    bolt: <path d="m13 2-9 12h7l-1 8 10-12h-7l1-8Z" />,
+    tap: <><path d="M4 12h9a5 5 0 0 1 5 5v2h-5v-2H4v-5ZM8 12V7h7v5M6 4h11M11.5 4v3M2 11v8" /><path d="M17 21h2" /></>,
     arrow: <path d="M5 12h14m-6-6 6 6-6 6" />,
     search: <><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 4 4" /></>,
     upload: <><path d="M12 16V3m-5 5 5-5 5 5M4 16v4h16v-4" /></>,
@@ -174,7 +182,7 @@ function HomePreview() {
   return <div className="sg-home-visual" aria-label="Illustrative standards search preview">
     <div className="sg-visual-note">A little clarity.<br />A better decision.<svg viewBox="0 0 92 52" fill="none" aria-hidden="true"><path d="M2 5c10 33 54 29 74 11M61 13l18 1-8 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg></div>
     <div className="sg-product-window">
-      <div className="sg-product-top"><span className="sg-mini-brand"><b>S</b> SpecGyan<span>.</span></span><span className="sg-preview-caption">EXAMPLE PREVIEW</span></div>
+      <div className="sg-product-top"><span className="sg-mini-brand"><img className="manakya-mini-mark" src="/manakya-mark.svg" alt="" /> Manakya<span>.</span></span><span className="sg-preview-caption">EXAMPLE PREVIEW</span></div>
       <div className="sg-product-inner">
         <div className="sg-preview-query"><div className="sg-preview-field-label"><Icon name="file" size={16} /> YOUR REQUIREMENT</div><p>Portland pozzolana cement<br />made with <strong>fly ash.</strong></p><span className="sg-preview-category"><Icon name="building" size={13} /> Construction</span></div>
         <div className="sg-match-connector"><span /><span className="sg-match-orb"><Spark /></span><span /><small>CONNECTING THE DETAILS</small></div>
@@ -197,7 +205,18 @@ function HowPage({ heading, embedded = false }) {
   return <div className="sg-workspace sg-how-page"><section className="sg-page-heading"><span className="sg-kicker">A CLEARER WAY TO SEARCH</span><Title ref={heading} tabIndex={-1}>From specification<br />to <em>standard.</em></Title><p>Four steps to a better-informed procurement decision.</p></section><div className="sg-how-grid">{steps.map(([icon,title,body],i)=><article className="sg-how-card" key={title}><div className="sg-how-top"><span>0{i+1}</span><Icon name={icon} size={28} /></div><h2>{title}</h2><p>{body}</p></article>)}</div><div className="sg-how-cta"><span>Have a requirement in mind?</span><a href="#find" className="sg-button sg-primary">Find your standard <Icon name="arrow" size={18} /></a></div></div>;
 }
 
+function savedPreference(key, fallback) {
+  try { return localStorage.getItem(key) || fallback; } catch { return fallback; }
+}
 export default function App() {
+  const [language, setLanguage] = useState(() => savedPreference("manakya-language", "en") === "hi" ? "hi" : "en");
+  useEffect(() => {
+    document.documentElement.dataset.theme = "light";
+    document.documentElement.style.colorScheme = "light";
+    document.documentElement.lang = language;
+    try { localStorage.removeItem("manakya-theme"); localStorage.setItem("manakya-language", language); } catch { /* Storage may be unavailable. */ }
+  }, [language]);
+
   const [page, setPage] = useState(route);
   const [category, setCategory] = useState("construction");
   const [query, setQuery] = useState("");
@@ -235,7 +254,8 @@ export default function App() {
     window.addEventListener("hashchange", change);
     return () => window.removeEventListener("hashchange", change);
   }, []);
-  useEffect(() => { document.title = `${page === "home" ? "Indian Standards for Procurement" : page === "find" ? "Find Standard" : page === "tender" ? "Upload Tender" : page === "how" ? "How It Works" : "History"} | SpecGyan`; window.scrollTo({ top: 0 }); heading.current?.focus({ preventScroll: true }); }, [page]);
+  useEffect(() => { document.title = `${page === "home" ? "Indian Standards for Procurement" : page === "find" ? "Find Standard" : page === "tender" ? "Upload Tender" : page === "how" ? "How It Works" : "History"} | Manakya`; window.scrollTo({ top: 0 }); heading.current?.focus({ preventScroll: true }); }, [page]);
+  useEffect(() => { const titles = { home: language === "hi" ? "खरीद के लिए भारतीय मानक" : "Indian Standards for Procurement", find: translate("Find Standard", language), tender: translate("Upload Tender", language), how: translate("How It Works", language), history: translate("History", language) }; document.title = `${titles[page]} | Manakya`; }, [page, language]);
   function remember(type, queryText, data, cat = null) {
     const entry = { id: `${Date.now()}-${Math.random().toString(36).slice(2)}`, type, query: queryText, category: cat, at: new Date().toISOString(), result: data };
     setHistory(previous => {
@@ -328,7 +348,7 @@ export default function App() {
     try {
       const response = await request(`/api/reports/${encodeURIComponent(tender.report_id)}/pdf`, { method: "GET" });
       const url = URL.createObjectURL(await response.blob());
-      const a = document.createElement("a"); a.href = url; a.download = "SpecGyan-tender-report.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 10000);
+      const a = document.createElement("a"); a.href = url; a.download = "Manakya-tender-report.pdf"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 10000);
     } catch (e) { setTenderError(e.message || "Could not export this report."); }
     finally { tenderLock.current = false; setTenderBusy(""); }
   }
@@ -337,15 +357,23 @@ export default function App() {
     if (entry.type === "search") { setCategory(CATEGORIES[entry.category] ? entry.category : "construction"); setQuery(entry.query); setResult(entry.result); setSearchError(""); window.location.hash = "find"; }
     else { setPendingPdf(null); setTenderAccepted(false); setTender(entry.result); setFilename(entry.query); setTenderError(""); window.location.hash = "tender"; }
   }
-  return <div className="sg-app">
+  return <LanguageContext.Provider value={language}><div className="sg-app">
     <a className="sg-skip" href="#main-content" onClick={e => { e.preventDefault(); heading.current?.focus(); }}>Skip to content</a>
-    <header className="sg-header"><div className="sg-nav-wrap"><a className="sg-brand" href="#home" aria-label="SpecGyan home"><span className="sg-brand-mark">S</span><span>SpecGyan<span className="sg-brand-period"></span></span></a><nav aria-label="Main navigation">{[["home","Home"],["find","Find Standard"],["tender","Upload Tender"],["how","How It Works"],["history","History"]].map(([key,label])=><a key={key} href={`#${key}`} aria-current={page===key?"page":undefined}>{label}</a>)}<button className="sg-login" onClick={() => setLogin(true)}>Login <Icon name="arrow" size={16} /></button></nav></div></header>
+    <header className="sg-header"><div className="sg-nav-wrap"><a className="sg-brand" href="#home" aria-label="Manakya home"><img className="manakya-wordmark" src="/manakya-logo.png" alt="Manakya" /></a><nav aria-label="Main navigation">{[["home","Home"],["find","Find Standard"],["tender","Upload Tender"],["how","How It Works"],["history","History"]].map(([key,label])=><a key={key} href={`#${key}`} aria-current={page===key?"page":undefined}>{label}</a>)}<button className="sg-login" onClick={() => setLogin(true)}>Login <Icon name="arrow" size={16} /></button></nav><div className="mk-preferences" aria-label={language === "hi" ? "प्रदर्शन सेटिंग" : "Display settings"}>
+      <button type="button" className="mk-language" onClick={() => setLanguage(v => v === "en" ? "hi" : "en")} aria-label={language === "en" ? "Switch interface to Hindi" : "Switch interface to English"} title={language === "en" ? "Switch interface to Hindi" : "Switch interface to English"}><span aria-hidden="true">अ / A</span><span>{language === "en" ? "हिन्दी" : "English"}</span></button>
+
+    </div></div></header>
     <main id="main-content" className={`sg-main sg-page-${page}`}>
       {page === "home" && <><section className="sg-home">
         <div className="sg-home-grid"><div className="sg-home-copy"><div className="sg-eyebrow"><Spark /> INDIAN STANDARDS, MADE CLEAR</div><h1 ref={heading} tabIndex={-1}>Find the right<br />Indian Standard.<br /><span className="sg-highlight">Before you procure.</span></h1><p className="sg-home-intro">Describe what you’re buying or bring your tender.<br className="sg-desktop-break" /> Find relevant IS codes. Understand why they matter.</p>
           <div className="sg-action-grid"><a className="sg-action-card sg-action-find" href="#find"><div className="sg-action-card-top"><span className="sg-action-icon"><Icon name="search" size={25} /></span><span className="sg-action-number">01</span></div><h2>Find a standard</h2><p>Start with a product description.</p><span className="sg-action-link">Describe your requirement <Icon name="arrow" size={18} /></span></a><a className="sg-action-card sg-action-tender" href="#tender"><div className="sg-action-card-top"><span className="sg-action-icon"><Icon name="upload" size={25} /></span><span className="sg-action-number">02</span></div><h2>Review a tender</h2><p>Let your procurement PDF do the talking.</p><span className="sg-action-link">Upload your PDF <Icon name="arrow" size={18} /></span></a></div>
         </div><HomePreview /></div>
-        <div className="sg-domain-strip"><span className="sg-domain-label">THREE DOMAINS.<br /><strong>One place to begin.</strong></span><a href="#find" onClick={()=>setCategory("construction")}><Icon name="building" /> Construction <Icon name="arrow" size={17} /></a><a href="#find" onClick={()=>setCategory("electrical")}><span className="sg-domain-symbol">ϟ</span> Electrical <Icon name="arrow" size={17} /></a><a href="#find" onClick={()=>setCategory("plumbing")}><Icon name="grid" /> Plumbing <Icon name="arrow" size={17} /></a><Spark className="sg-domain-spark" /></div>
+        <section className="mk-catalogue-strip" aria-label="Standards catalogue categories">
+          <div className="mk-catalogue-total"><span className="mk-category-icon mk-search-icon"><Icon name="search" size={30} /></span><div><span className="mk-catalogue-caption">Search through</span><strong>7261 Records</strong></div></div>
+          <div className="mk-catalogue-links">
+            {[["construction","building","Construction"],["electrical","bolt","Electrical"],["plumbing","tap","Plumbing"]].map(([key,icon,label]) => <a key={key} className={`mk-catalogue-link mk-category-${key}`} href="#find" onClick={() => setCategory(key)}><span className="mk-category-icon"><Icon name={icon} size={28} /></span><span className="mk-category-name">{label}</span><span className="mk-category-arrow"><Icon name="arrow" size={19} /></span></a>)}
+          </div>
+        </section>
       </section><section className="sg-home-how" aria-label="How it works"><HowPage embedded /></section></>}
       {page === "how" && <HowPage heading={heading} />}
       {page === "find" && <div className="sg-workspace"><section className="sg-page-heading"><span className="sg-kicker">FIND STANDARD</span><h1 ref={heading} tabIndex={-1}>Your requirement.<br className="sg-desktop-break" /> <em>The right starting point.</em></h1><p>Tell us what you need, and explore the standards that may apply.</p></section><section className="sg-search-panel" aria-label="Describe your requirement"><form onSubmit={e => { e.preventDefault(); search(); }}><div className="sg-input-heading"><label htmlFor="description">Product description</label><div className="sg-category"><Icon name="grid" size={16} /><label className="sg-sr-only" htmlFor="category">Category</label><select id="category" value={category} disabled={searchBusy} onChange={e => { setCategory(e.target.value); setResult(null); setSearchError(""); }}>{Object.entries(CATEGORIES).map(([key,name]) => <option value={key} key={key}>{name}</option>)}</select></div></div><textarea id="description" placeholder="Describe the product, material and intended use…" value={query} maxLength={5000} disabled={searchBusy} onChange={e => { setQuery(e.target.value); setResult(null); setSearchError(""); }} onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); search(); } }} aria-describedby="description-help" /><div className="sg-textarea-bottom"><span>{query.length.toLocaleString()} / 5,000</span><button type="button" className="sg-text-button" disabled={!query || searchBusy} onClick={() => { setQuery(""); setResult(null); setSearchError(""); }}>Clear</button></div><div className="sg-search-actions"><p id="description-help"><Icon name="file" size={15} /> Include material, voltage or intended use. Enter to search · Shift+Enter for a new line.</p><button className="sg-button sg-primary" disabled={searchBusy || query.trim().length < 2}>{searchBusy ? <><span className="sg-spinner" /> Finding standards</> : <>Find Standard <Icon name="arrow" size={18} /></>}</button></div></form><div className="sg-examples"><span>Try a search</span>{EXAMPLES[category].map(([label,text]) => <button key={label} disabled={searchBusy} onClick={() => search(text)}>{label}<Icon name="arrow" size={14} /></button>)}</div></section>{searchError && <div className="sg-error" role="alert">{searchError}</div>}<section aria-live="polite" aria-busy={searchBusy}>{searchBusy && <SearchProgress step={searchStep} />}<Results result={result} open={setSelected} />{!result && !searchBusy && !searchError && <div className="sg-search-hint"><Icon name="search" size={19} /><p>Your recommendations will appear here.<br /><span>Select a code to view its scope and details.</span></p></div>}</section></div>}
@@ -413,8 +441,8 @@ export default function App() {
       </div>}
       {page === "history" && <div className="sg-workspace"><section className="sg-page-heading"><span className="sg-kicker">YOUR WORKSPACE</span><h1 ref={heading} tabIndex={-1}>Good work deserves<br /><em>a place to come back to.</em></h1><p>Recent searches and tender reviews from this browser tab. Up to 12 entries.</p></section><div className="sg-history-head"><h2>Session history <span>{history.length}</span></h2>{history.length > 0 && <button className="sg-text-button" onClick={() => { setHistory([]); try { sessionStorage.removeItem(HISTORY_KEY); setHistoryNotice(""); } catch { setHistoryNotice("Could not clear browser storage. History is cleared from this view."); } }}>Clear history</button>}</div>{historyNotice && <p className="sg-notice">{historyNotice}</p>}{history.length ? <div className="sg-history-list">{history.map(entry => <button className="sg-history-row" key={entry.id} onClick={() => openHistory(entry)} disabled={searchBusy || !!tenderBusy}><span className="sg-history-icon"><Icon name={entry.type === "search" ? "search" : "file"} /></span><span className="sg-history-text"><strong>{entry.query}</strong><small>{entry.type === "search" ? CATEGORIES[entry.category] || "Standards search" : "Tender review"} · {date(entry.at)}</small></span><Icon name="arrow" /></button>)}</div> : <div className="sg-empty"><Icon name="clock" size={32} /><h3>A fresh start</h3><p>Your searches and tender reviews will appear here.</p><a className="sg-button sg-primary" href="#find">Find a standard <Icon name="arrow" size={17} /></a></div>}</div>}
     </main>
-    <footer className="sg-footer"><a className="sg-footer-brand" href="#home">SpecGyan.</a><span>Clarity before you procure.</span><a href={BIS} target="_blank" rel="noopener noreferrer">Explore BIS <Icon name="external" size={14} /></a></footer>
+    <footer className="sg-footer"><a className="sg-footer-brand" href="#home">Manakya.</a><span>Clarity before you procure.</span><a href={BIS} target="_blank" rel="noopener noreferrer">Explore BIS <Icon name="external" size={14} /></a></footer>
     {selected && <StandardDialog standard={selected} close={() => setSelected(null)} />}
     {login && <Modal close={() => setLogin(false)} titleId="login-title"><div className="sg-login-panel"><span className="sg-upload-symbol"><Icon name="building" size={28} /></span><span className="sg-kicker">ACCOUNT ACCESS</span><h2 id="login-title">Your workspace, without a login.</h2><p>Standards search and tender review are available now. Account sign-in and cross-device history are not connected in this version.</p><button className="sg-button sg-primary" onClick={() => { setLogin(false); window.location.hash = "find"; }}>Continue to Find Standard <Icon name="arrow" size={17} /></button></div></Modal>}
-  </div>;
+  </div></LanguageContext.Provider>;
 }

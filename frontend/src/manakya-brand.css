@@ -1,0 +1,8 @@
+/* Branding overrides; existing index.css remains unchanged. */
+.sg-header .sg-brand { display:flex; align-items:center; }
+.sg-header .sg-brand .manakya-wordmark { display:block; width:216px; height:66px; object-fit:contain; }
+.sg-mini-brand .manakya-mini-mark { display:inline-block; width:28px; height:28px; object-fit:contain; vertical-align:middle; flex-shrink:0; }
+.sg-home .sg-domain-strip { background:#eee4fa; border-top:1px solid #111; border-bottom:1px solid #111; padding:18px 20px; box-sizing:border-box; }
+.sg-domain-strip .sg-domain-label { color:#111; text-transform:none; letter-spacing:0; font-size:13px; }
+.sg-domain-strip .sg-domain-label strong { display:inline-block; margin-top:3px; font-size:18px; }
+@media(max-width:700px){.sg-header .sg-brand .manakya-wordmark{width:164px;height:52px}.sg-home .sg-domain-strip{gap:16px;flex-wrap:wrap}.sg-domain-strip .sg-domain-label{flex-basis:100%}}

@@ -27,8 +27,8 @@ for candidate in (
     Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'),
 ):
     if candidate.exists():
-        pdfmetrics.registerFont(TTFont('VelociaText', str(candidate)))
-        FONT = 'VelociaText'
+        pdfmetrics.registerFont(TTFont('ManakyaText', str(candidate)))
+        FONT = 'ManakyaText'
         break
 
 
@@ -64,8 +64,8 @@ def get_report(token):
 BOLD = 'Helvetica-Bold'
 for candidate in (Path(r'C:\Windows\Fonts\arialbd.ttf'), Path('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf')):
     if candidate.exists():
-        pdfmetrics.registerFont(TTFont('SpecGyanBold', str(candidate)))
-        BOLD = 'SpecGyanBold'
+        pdfmetrics.registerFont(TTFont('ManakyaBold', str(candidate)))
+        BOLD = 'ManakyaBold'
         break
 pdfmetrics.registerFontFamily(FONT, normal=FONT, bold=BOLD, italic=FONT, boldItalic=BOLD)
 
@@ -114,7 +114,7 @@ def build_pdf(report):
     items = report.get('items') or []
     story = [p('Tender standards\nrecommendation report.','title'),p('A structured review of the submitted procurement requirement and its related Indian Standards.'),Spacer(1,14)]
     first = items[0] if items else {}
-    summary = [[cell('PROJECT','SpecGyan'),cell('REQUIREMENT',first.get('requirement') if len(items)==1 else f'{len(items)} procurement requirements'),cell('DOMAIN',str(first.get('category','Unspecified')).title() if len(items)==1 else 'Multiple categories')],
+    summary = [[cell('PROJECT','Manakya'),cell('REQUIREMENT',first.get('requirement') if len(items)==1 else f'{len(items)} procurement requirements'),cell('DOMAIN',str(first.get('category','Unspecified')).title() if len(items)==1 else 'Multiple categories')],
                [cell('SOURCE',report.get('source_document')),cell('REQUIREMENTS REVIEWED',len(items)),cell('REVIEW SNAPSHOT',date(report.get('generated_at')))]]
     story += [table(summary,[width*.28,width*.43,width*.29],fills=[((0,0),(-1,0),purple)]),Spacer(1,16)]
     note = 'This report records candidate recommendations, not verified compliance or approved tender clauses. Latest editions, scope applicability and certification obligations require checking.'
@@ -188,7 +188,7 @@ def build_pdf(report):
         canvas.setFillColor(colors.HexColor('#fcfaf7'))
         canvas.rect(0,0,A4[0],A4[1],fill=1,stroke=0)
         canvas.setFillColor(ink);canvas.setFont(BOLD,15)
-        canvas.drawString(42,A4[1]-44,'SpecGyan')
+        canvas.drawString(42,A4[1]-44,'Manakya')
         canvas.setFont(FONT,7);canvas.drawString(42,A4[1]-58,'Indian Standards Intelligence')
         canvas.setFillColor(yellow);canvas.setStrokeColor(ink)
         canvas.rect(A4[0]-192,A4[1]-63,150,30,fill=1,stroke=1)
@@ -198,8 +198,8 @@ def build_pdf(report):
         canvas.setStrokeColor(colors.HexColor('#888888'));canvas.setLineWidth(.4)
         canvas.line(42,37,A4[0]-42,37)
         canvas.setFont(FONT,6.5);canvas.setFillColor(colors.HexColor('#666666'))
-        canvas.drawString(42,25,'SpecGyan | Tender standards recommendation report')
+        canvas.drawString(42,25,'Manakya | Tender standards recommendation report')
         canvas.drawRightString(A4[0]-42,25,f'Page {doc.page}')
         canvas.restoreState()
-    SimpleDocTemplate(stream,pagesize=A4,leftMargin=42,rightMargin=42,topMargin=92,bottomMargin=53,title='SpecGyan - Tender standards recommendation report',author='SpecGyan').build(story,onFirstPage=frame,onLaterPages=frame)
+    SimpleDocTemplate(stream,pagesize=A4,leftMargin=42,rightMargin=42,topMargin=92,bottomMargin=53,title='Manakya - Tender standards recommendation report',author='Manakya').build(story,onFirstPage=frame,onLaterPages=frame)
     return stream.getvalue()
