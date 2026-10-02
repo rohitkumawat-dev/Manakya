@@ -156,7 +156,7 @@ The standards data is built from publicly available information about Indian Sta
 
 ## Built by
 
-Made for Smart India Hackathon 2026 by [@rohitkumawat-dev](https://github.com/rohitkumawat-dev) and team.
+Made for Smart India Hackathon 2026 by [@rohitkumawat-dev](https://github.com/rohitkumawat-dev) 
 
 <!-- Add teammates' names and GitHub links here. -->
 
@@ -164,6 +164,6 @@ Made for Smart India Hackathon 2026 by [@rohitkumawat-dev](https://github.com/ro
 
 <div align="center">
 
-If Velocia saved you a search, a ⭐ on the repo means a lot to us.
+Author: Rohit Kumawat
 
 </div>
