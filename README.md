@@ -1,3 +1,5 @@
+<img width="2172" height="724" alt="White Manakya logo with purple M" src="https://github.com/user-attachments/assets/ac67195b-07c8-4a39-93f2-d008cefc9f08" />
+
 <div align="left">
 
 # Manakya
@@ -17,7 +19,6 @@ Smart India Hackathon 2026 &nbsp;·&nbsp;
 <br>
 
 <!-- Add a demo GIF or a hero screenshot here. It's the first thing people look at. -->
-<img width="2172" height="724" alt="manakya-logo" src="https://github.com/user-attachments/assets/4d520810-7bd2-43af-bd83-ceafe478d352" />
 
 <!-- ![Velocia demo](docs/demo.gif) -->
 
