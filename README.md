@@ -1,4 +1,4 @@
-<img width="2172" height="724" alt="White Manakya logo with purple M" src="https://github.com/user-attachments/assets/ac67195b-07c8-4a39-93f2-d008cefc9f08" />
+<img width="1500" height="400" alt="White Manakya logo with purple M" src="https://github.com/user-attachments/assets/ac67195b-07c8-4a39-93f2-d008cefc9f08" />
 
 <div align="left">
 
